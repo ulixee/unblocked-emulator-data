@@ -28,12 +28,16 @@
     "{0xC0, 0x12} TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
     "{0x00, 0x0A} TLS_RSA_WITH_3DES_EDE_CBC_SHA"
   ],
-  "compressionMethods": ["No Compression (0x00)"],
+  "compressionMethods": [
+    "No Compression (0x00)"
+  ],
   "extensions": [
     {
       "type": "renegotiate",
       "decimal": 65281,
-      "values": ["<EMPTY>"]
+      "values": [
+        "<EMPTY>"
+      ]
     },
     {
       "type": "server_name",
@@ -68,7 +72,9 @@
     {
       "type": "status_request",
       "decimal": 5,
-      "values": ["0000 - 01 00 00 00 00                                 ....."]
+      "values": [
+        "0000 - 01 00 00 00 00                                 ....."
+      ]
     },
     {
       "type": "next_proto_neg",
@@ -83,12 +89,22 @@
     {
       "type": "application_layer_protocol_negotiation",
       "decimal": 16,
-      "values": ["h2", "h2-16", "h2-15", "h2-14", "spdy/3.1", "spdy/3", "http/1.1"]
+      "values": [
+        "h2",
+        "h2-16",
+        "h2-15",
+        "h2-14",
+        "spdy/3.1",
+        "spdy/3",
+        "http/1.1"
+      ]
     },
     {
       "type": "ec_point_formats",
       "decimal": 11,
-      "values": ["uncompressed (0)"]
+      "values": [
+        "uncompressed (0)"
+      ]
     },
     {
       "type": "key_share",
@@ -101,17 +117,29 @@
     {
       "type": "psk_key_exchange_modes",
       "decimal": 45,
-      "values": ["psk_dhe_ke (1)"]
+      "values": [
+        "psk_dhe_ke (1)"
+      ]
     },
     {
       "type": "supported_versions",
       "decimal": 43,
-      "values": ["TLS 1.3 (772)", "TLS 1.2 (771)", "TLS 1.1 (770)", "TLS 1.0 (769)"]
+      "values": [
+        "TLS 1.3 (772)",
+        "TLS 1.2 (771)",
+        "TLS 1.1 (770)",
+        "TLS 1.0 (769)"
+      ]
     },
     {
       "type": "supported_groups",
       "decimal": 10,
-      "values": ["ecdh_x25519 (29)", "secp256r1 (P-256) (23)", "secp384r1 (P-384) (24)", "secp521r1 (P-521) (25)"]
+      "values": [
+        "ecdh_x25519 (29)",
+        "secp256r1 (P-256) (23)",
+        "secp384r1 (P-384) (24)",
+        "secp521r1 (P-521) (25)"
+      ]
     },
     {
       "type": "padding",

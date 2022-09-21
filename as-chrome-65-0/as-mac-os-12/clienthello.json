@@ -31,7 +31,9 @@
     "{0x00, 0x13} TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA",
     "{0x00, 0xFF} TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
   ],
-  "compressionMethods": ["No Compression (0x00)"],
+  "compressionMethods": [
+    "No Compression (0x00)"
+  ],
   "extensions": [
     {
       "type": "supported_groups",
@@ -67,7 +69,9 @@
     {
       "type": "ec_point_formats",
       "decimal": 11,
-      "values": ["uncompressed (0)"]
+      "values": [
+        "uncompressed (0)"
+      ]
     },
     {
       "type": "signature_algorithms",
