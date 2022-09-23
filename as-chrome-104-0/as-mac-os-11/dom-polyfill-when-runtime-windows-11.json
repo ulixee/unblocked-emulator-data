@@ -1,9 +1,9 @@
 {
   "add": [
     {
-      "path": "window.Navigator.prototype",
-      "propertyName": "canShare",
-      "prevProperty": "userAgentData",
+      "path": "window",
+      "propertyName": "BarcodeDetector",
+      "prevProperty": "PublicKeyCredential",
       "property": {
         "length": {
           "_$type": "number",
@@ -13,53 +13,91 @@
         "name": {
           "_$type": "string",
           "_$flags": "c",
-          "_$value": "canShare"
+          "_$value": "BarcodeDetector"
+        },
+        "arguments": {
+          "_$type": "object",
+          "_$flags": "",
+          "_$value": null
+        },
+        "caller": {
+          "_$type": "object",
+          "_$flags": "",
+          "_$value": null
+        },
+        "prototype": {
+          "_$protos": [
+            "Object.prototype"
+          ],
+          "detect": {
+            "length": {
+              "_$type": "number",
+              "_$flags": "c",
+              "_$value": 1
+            },
+            "name": {
+              "_$type": "string",
+              "_$flags": "c",
+              "_$value": "detect"
+            },
+            "_$type": "function",
+            "_$function": "function detect() { [native code] }",
+            "_$invocation": "TypeError: Failed to execute 'detect' on 'BarcodeDetector': Illegal invocation",
+            "_$flags": "cew",
+            "_$value": "function detect() { [native code] }"
+          },
+          "Symbol(Symbol.toStringTag)": {
+            "_$type": "string",
+            "_$flags": "c",
+            "_$value": "BarcodeDetector"
+          },
+          "_$type": "object",
+          "_$flags": ""
+        },
+        "getSupportedFormats": {
+          "length": {
+            "_$type": "number",
+            "_$flags": "c",
+            "_$value": 0
+          },
+          "name": {
+            "_$type": "string",
+            "_$flags": "c",
+            "_$value": "getSupportedFormats"
+          },
+          "_$type": "function",
+          "_$function": "function getSupportedFormats() { [native code] }",
+          "_$invocation": "[aztec,code_128,code_39,code_93,data_matrix,ean_13,ean_8,itf,pdf417,qr_code,upc_e]",
+          "_$flags": "cew",
+          "_$value": "function getSupportedFormats() { [native code] }"
+        },
+        "new()": {
+          "_$protos": [
+            "BarcodeDetector.prototype",
+            "Object.prototype"
+          ],
+          "_$type": "constructor"
         },
         "_$type": "function",
-        "_$function": "function canShare() { [native code] }",
-        "_$invocation": "TypeError: Illegal invocation",
-        "_$flags": "cew",
-        "_$value": "function canShare() { [native code] }"
-      }
-    },
-    {
-      "path": "window.Navigator.prototype",
-      "propertyName": "share",
-      "prevProperty": "canShare",
-      "property": {
-        "length": {
-          "_$type": "number",
-          "_$flags": "c",
-          "_$value": 0
-        },
-        "name": {
-          "_$type": "string",
-          "_$flags": "c",
-          "_$value": "share"
-        },
-        "_$type": "function",
-        "_$function": "function share() { [native code] }",
-        "_$invocation": "TypeError: Failed to execute 'share' on 'Navigator': Illegal invocation",
-        "_$flags": "cew",
-        "_$value": "function share() { [native code] }"
-      }
-    },
-    {
-      "path": "window.Notification.prototype",
-      "propertyName": "image",
-      "prevProperty": "close",
-      "property": {
-        "_$flags": "ce",
-        "_$accessException": "TypeError: Illegal invocation",
-        "_$get": "function get image() { [native code] }",
-        "_$getToStringToString": "function toString() { [native code] }"
+        "_$function": "function BarcodeDetector() { [native code] }",
+        "_$invocation": "TypeError: Failed to construct 'BarcodeDetector': Please use the 'new' operator, this DOM object constructor cannot be called as a function.",
+        "_$flags": "cw",
+        "_$value": "function BarcodeDetector() { [native code] }"
       }
     }
   ],
   "remove": [
     {
-      "path": "window",
-      "propertyName": "BarcodeDetector"
+      "path": "window.Navigator.prototype",
+      "propertyName": "canShare"
+    },
+    {
+      "path": "window.Navigator.prototype",
+      "propertyName": "share"
+    },
+    {
+      "path": "window.Notification.prototype",
+      "propertyName": "image"
     },
     {
       "path": "window.Text.prototype",
@@ -91,5 +129,12 @@
     }
   ],
   "modify": [],
-  "reorder": []
+  "reorder": [
+    {
+      "path": "window",
+      "propertyName": "BatteryManager",
+      "throughProperty": "PERSISTENT",
+      "prevProperty": "BarcodeDetector"
+    }
+  ]
 }
