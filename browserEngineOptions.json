@@ -1,82 +1,112 @@
 [
   {
+    "id": "chrome-106-0",
+    "name": "chrome",
+    "majorVersion": 106,
+    "buildVersion": 5249,
+    "stablePatchesByOs": {
+      "mac": [61],
+      "win": [62],
+      "linux": [61]
+    }
+  },
+  {
     "id": "chrome-105-0",
     "name": "chrome",
-    "fullVersion": "105.0.5195.127",
-    "features": [
-      "headless"
-    ]
+    "majorVersion": 105,
+    "buildVersion": 5195,
+    "stablePatchesByOs": {
+      "mac": [125, 102, 52],
+      "win": [127, 102, 54],
+      "linux": [125, 102, 52]
+    }
   },
   {
     "id": "chrome-104-0",
     "name": "chrome",
-    "fullVersion": "104.0.5112.102",
-    "features": [
-      "headless"
-    ]
+    "majorVersion": 104,
+    "buildVersion": 5112,
+    "stablePatchesByOs": {
+      "mac": [101, 79],
+      "win": [102, 81],
+      "linux": [101, 79]
+    }
   },
   {
     "id": "chrome-103-0",
     "name": "chrome",
-    "fullVersion": "103.0.5060.134",
-    "features": [
-      "headless"
-    ]
+    "majorVersion": 103,
+    "buildVersion": 5060,
+    "stablePatchesByOs": {
+      "mac": [134, 114, 53],
+      "win": [134, 114, 66, 53],
+      "linux": [134, 114, 53]
+    }
   },
   {
     "id": "chrome-102-0",
     "name": "chrome",
-    "fullVersion": "102.0.5005.115",
-    "features": [
-      "headless"
-    ]
+    "majorVersion": 102,
+    "buildVersion": 5005,
+    "stablePatchesByOs": {
+      "mac": [115, 61],
+      "win": [115, 63],
+      "linux": [115, 61]
+    }
   },
   {
     "id": "chrome-101-0",
     "name": "chrome",
-    "fullVersion": "101.0.4951.67",
-    "features": [
-      "headless"
-    ]
+    "majorVersion": 101,
+    "buildVersion": 4951,
+    "stablePatchesByOs": {
+      "mac": [64, 54, 41],
+      "win": [67, 64, 54, 41],
+      "linux": [64, 54, 41]
+    }
   },
   {
     "id": "chrome-100-0",
     "name": "chrome",
-    "fullVersion": "100.0.4896.127",
-    "features": [
-      "headless"
-    ]
+    "majorVersion": 100,
+    "buildVersion": 4896,
+    "stablePatchesByOs": {
+      "mac": [127, 88, 75, 60],
+      "win": [127, 88, 75, 60],
+      "linux": [127, 88, 75, 60]
+    }
   },
   {
     "id": "chrome-99-0",
     "name": "chrome",
-    "fullVersion": "99.0.4844.84",
-    "features": [
-      "headless"
-    ]
+    "majorVersion": 99,
+    "buildVersion": 4844,
+    "stablePatchesByOs": {
+      "mac": [84, 83, 74, 51],
+      "win": [84, 82, 74, 51],
+      "linux": [84, 74, 51]
+    }
   },
   {
     "id": "chrome-98-0",
     "name": "chrome",
-    "fullVersion": "98.0.4758.109",
-    "features": [
-      "headless"
-    ]
+    "majorVersion": 98,
+    "buildVersion": 4758,
+    "stablePatchesByOs": {
+      "mac": [109, 102, 80],
+      "win": [102, 82, 80],
+      "linux": [102, 80]
+    }
   },
   {
     "id": "chrome-97-0",
     "name": "chrome",
-    "fullVersion": "97.0.4692.99",
-    "features": [
-      "headless"
-    ]
-  },
-  {
-    "id": "chrome-96-0",
-    "name": "chrome",
-    "fullVersion": "96.0.4664.110",
-    "features": [
-      "headless"
-    ]
+    "majorVersion": 97,
+    "buildVersion": 4692,
+    "stablePatchesByOs": {
+      "mac": [99, 71],
+      "win": [99, 71],
+      "linux": [99, 71]
+    }
   }
 ]
