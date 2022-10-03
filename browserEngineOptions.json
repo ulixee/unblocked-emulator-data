@@ -219,5 +219,75 @@
         71
       ]
     }
+  },
+  {
+    "id": "chrome-96-0",
+    "name": "chrome",
+    "majorVersion": 96,
+    "buildVersion": 4664,
+    "stablePatchesByOs": {
+      "mac": [
+        110,
+        93,
+        55,
+        45
+      ],
+      "win": [
+        110,
+        93,
+        45
+      ],
+      "linux": [
+        110,
+        93,
+        45
+      ]
+    }
+  },
+  {
+    "id": "chrome-95-0",
+    "name": "chrome",
+    "majorVersion": 95,
+    "buildVersion": 4638,
+    "stablePatchesByOs": {
+      "mac": [
+        69,
+        54
+      ],
+      "win": [
+        69,
+        54
+      ],
+      "linux": [
+        69,
+        54
+      ]
+    }
+  },
+  {
+    "id": "chrome-94-0",
+    "name": "chrome",
+    "majorVersion": 94,
+    "buildVersion": 4606,
+    "stablePatchesByOs": {
+      "mac": [
+        81,
+        71,
+        61,
+        54
+      ],
+      "win": [
+        81,
+        71,
+        61,
+        54
+      ],
+      "linux": [
+        81,
+        71,
+        61,
+        54
+      ]
+    }
   }
 ]
