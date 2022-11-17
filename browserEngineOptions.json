@@ -6,14 +6,17 @@
     "buildVersion": 5304,
     "stablePatchesByOs": {
       "mac": [
+        110,
         87,
         62
       ],
       "win": [
+        107,
         88,
         63
       ],
       "linux": [
+        110,
         87,
         62
       ]
