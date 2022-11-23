@@ -2222,6 +2222,60 @@
       },
       {
         "originTypes": [
+          "same-origin"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "sec-ch-ua-mobile",
+          "User-Agent",
+          "sec-ch-ua",
+          "sec-ch-ua-platform",
+          "Accept",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Sec-Fetch-Dest",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\""
+          ],
+          "sec-ch-ua-platform": [
+            "\"macOS\""
+          ],
+          "Accept": [
+            "*/*"
+          ],
+          "Sec-Fetch-Site": [
+            "same-origin"
+          ],
+          "Sec-Fetch-Mode": [
+            "cors"
+          ],
+          "Sec-Fetch-Dest": [
+            "empty"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate, br"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
           "same-site"
         ],
         "method": "POST",
@@ -3519,6 +3573,7 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "sec-fetch-site": [

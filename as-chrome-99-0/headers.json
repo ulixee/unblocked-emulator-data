@@ -358,7 +358,8 @@
       {
         "originTypes": [
           "same-site",
-          "cross-site"
+          "cross-site",
+          "same-origin"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -1762,7 +1763,8 @@
       },
       {
         "originTypes": [
-          "same-origin"
+          "same-origin",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -1801,7 +1803,8 @@
             "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
           ],
           "Sec-Fetch-Site": [
-            "same-origin"
+            "same-origin",
+            "cross-site"
           ],
           "Sec-Fetch-Mode": [
             "cors"
@@ -4316,6 +4319,7 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "sec-ch-ua": [

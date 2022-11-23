@@ -1737,7 +1737,8 @@
       },
       {
         "originTypes": [
-          "same-site"
+          "same-site",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -1776,7 +1777,8 @@
             "\"macOS\""
           ],
           "Sec-Fetch-Site": [
-            "same-site"
+            "same-site",
+            "cross-site"
           ],
           "Sec-Fetch-Mode": [
             "cors"
@@ -4095,6 +4097,7 @@
       },
       {
         "originTypes": [
+          "same-origin",
           "cross-site"
         ],
         "method": "POST",
@@ -4127,12 +4130,14 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "accept": [
             "*/*"
           ],
           "sec-fetch-site": [
+            "same-origin",
             "cross-site"
           ],
           "sec-fetch-mode": [
