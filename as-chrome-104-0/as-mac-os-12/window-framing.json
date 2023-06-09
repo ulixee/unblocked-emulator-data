@@ -5,17 +5,6 @@
   "screenGapBottom": 0,
   "frameBorderWidth": 0,
   "frameBorderHeight": 80,
-  "devicePixelRatio": {
-    "_$type": "number",
-    "_$flags": "ce",
-    "_$value": 1,
-    "_$get": "function get devicePixelRatio() { [native code] }",
-    "_$set": "function set devicePixelRatio() { [native code] }",
-    "_$getToStringToString": "function toString() { [native code] }",
-    "_$setToStringToString": "function toString() { [native code] }"
-  },
-  "colorDepth": {
-    "_$type": "number",
-    "_$value": 24
-  }
+  "devicePixelRatio": 1,
+  "colorDepth": 24
 }
