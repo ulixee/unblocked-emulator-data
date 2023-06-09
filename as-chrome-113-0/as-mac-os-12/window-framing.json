@@ -4,5 +4,7 @@
   "screenGapRight": 0,
   "screenGapBottom": 0,
   "frameBorderWidth": 0,
-  "frameBorderHeight": 79
+  "frameBorderHeight": 79,
+  "devicePixelRatio": 1,
+  "colorDepth": 24
 }
