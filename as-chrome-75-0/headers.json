@@ -2029,6 +2029,39 @@
       },
       {
         "originTypes": [
+          "cross-site"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "Content-Length",
+          "Origin",
+          "User-Agent",
+          "Accept",
+          "Content-Type",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "Accept": [
+            "application/json, text/plain, */*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate, br"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
           "same-site"
         ],
         "method": "POST",

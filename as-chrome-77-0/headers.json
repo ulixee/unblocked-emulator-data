@@ -3914,6 +3914,44 @@
       },
       {
         "originTypes": [
+          "cross-site"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "user-agent",
+          "sec-fetch-mode",
+          "accept",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ],
+        "defaults": {
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "sec-fetch-site": [
+            "cross-site"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br"
+          ],
+          "accept-language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
           "same-origin"
         ],
         "method": "POST",

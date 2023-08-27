@@ -592,7 +592,8 @@
       {
         "originTypes": [
           "same-origin",
-          "cross-site"
+          "cross-site",
+          "same-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -689,7 +690,8 @@
       },
       {
         "originTypes": [
-          "same-site"
+          "same-site",
+          "same-origin"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -926,6 +928,37 @@
           "Connection",
           "Origin",
           "User-Agent",
+          "Accept",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-site"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "User-Agent",
+          "Origin",
           "Accept",
           "Referer",
           "Accept-Encoding",
@@ -2300,6 +2333,39 @@
           "Connection",
           "Origin",
           "User-Agent",
+          "Accept",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate, br"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-origin"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "Content-Length",
+          "User-Agent",
+          "Origin",
+          "Content-Type",
           "Accept",
           "Referer",
           "Accept-Encoding",

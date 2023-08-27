@@ -995,7 +995,8 @@
       },
       {
         "originTypes": [
-          "cross-site"
+          "cross-site",
+          "same-site"
         ],
         "method": "GET",
         "isRedirect": false,
@@ -3294,7 +3295,8 @@
       },
       {
         "originTypes": [
-          "same-origin"
+          "same-origin",
+          "same-site"
         ],
         "method": "POST",
         "isRedirect": false,

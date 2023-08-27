@@ -3696,6 +3696,7 @@
       },
       {
         "originTypes": [
+          "same-site",
           "cross-site"
         ],
         "method": "GET",
@@ -3729,9 +3730,11 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "sec-fetch-site": [
+            "same-site",
             "cross-site"
           ],
           "sec-fetch-mode": [
@@ -4098,6 +4101,7 @@
       {
         "originTypes": [
           "same-origin",
+          "same-site",
           "cross-site"
         ],
         "method": "POST",
@@ -4138,6 +4142,7 @@
           ],
           "sec-fetch-site": [
             "same-origin",
+            "same-site",
             "cross-site"
           ],
           "sec-fetch-mode": [

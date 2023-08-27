@@ -3656,6 +3656,7 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "sec-ch-ua": [

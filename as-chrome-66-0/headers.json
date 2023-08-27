@@ -925,7 +925,8 @@
       {
         "originTypes": [
           "same-origin",
-          "same-site"
+          "same-site",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -990,7 +991,8 @@
       },
       {
         "originTypes": [
-          "cross-site"
+          "cross-site",
+          "same-site"
         ],
         "method": "GET",
         "isRedirect": false,
@@ -5039,6 +5041,38 @@
           "accept",
           "user-agent",
           "origin",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ],
+        "defaults": {
+          "accept": [
+            "application/json, text/plain, */*"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br"
+          ],
+          "accept-language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-site"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "content-length",
+          "origin",
+          "user-agent",
+          "accept",
+          "content-type",
           "referer",
           "accept-encoding",
           "accept-language"

@@ -357,7 +357,9 @@
       },
       {
         "originTypes": [
-          "cross-site"
+          "cross-site",
+          "same-origin",
+          "same-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -489,7 +491,9 @@
       },
       {
         "originTypes": [
-          "same-origin"
+          "same-origin",
+          "same-site",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,

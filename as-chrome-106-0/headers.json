@@ -3490,6 +3490,59 @@
       },
       {
         "originTypes": [
+          "same-origin"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua",
+          "sec-ch-ua-platform",
+          "sec-ch-ua-mobile",
+          "user-agent",
+          "accept",
+          "sec-fetch-site",
+          "sec-fetch-mode",
+          "sec-fetch-dest",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ],
+        "defaults": {
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\""
+          ],
+          "sec-ch-ua-platform": [
+            "\"macOS\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br"
+          ],
+          "accept-language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
           "cross-site"
         ],
         "method": "GET",
@@ -3517,6 +3570,7 @@
             "\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\""
           ],
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "sec-ch-ua-mobile": [

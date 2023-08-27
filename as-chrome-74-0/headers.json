@@ -559,7 +559,8 @@
       {
         "originTypes": [
           "same-origin",
-          "same-site"
+          "same-site",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,

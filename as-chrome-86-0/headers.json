@@ -717,6 +717,39 @@
             "en-US,en;q=0.9"
           ]
         }
+      },
+      {
+        "originTypes": [
+          "same-origin"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "Content-Length",
+          "Content-Type",
+          "User-Agent",
+          "Accept",
+          "Origin",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
       }
     ],
     "Preflight": [

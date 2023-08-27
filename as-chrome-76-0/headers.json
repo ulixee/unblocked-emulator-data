@@ -1817,7 +1817,9 @@
       },
       {
         "originTypes": [
-          "same-origin"
+          "same-origin",
+          "same-site",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -1846,7 +1848,9 @@
             "application/json, text/plain, */*"
           ],
           "Sec-Fetch-Site": [
-            "same-origin"
+            "same-origin",
+            "same-site",
+            "cross-site"
           ],
           "Accept-Encoding": [
             "gzip, deflate, br"
@@ -3876,6 +3880,46 @@
           ],
           "sec-fetch-site": [
             "same-site"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br"
+          ],
+          "accept-language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-origin"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "content-length",
+          "user-agent",
+          "sec-fetch-mode",
+          "content-type",
+          "accept",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ],
+        "defaults": {
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
           ],
           "accept-encoding": [
             "gzip, deflate, br"

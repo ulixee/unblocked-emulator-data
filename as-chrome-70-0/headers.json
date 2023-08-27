@@ -689,7 +689,8 @@
       },
       {
         "originTypes": [
-          "same-site"
+          "same-site",
+          "cross-site"
         ],
         "method": "GET",
         "isRedirect": false,
@@ -720,7 +721,8 @@
       },
       {
         "originTypes": [
-          "same-site"
+          "same-site",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -2518,6 +2520,37 @@
           "cross-site"
         ],
         "method": "GET",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "User-Agent",
+          "Origin",
+          "Accept",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate, br"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "cross-site"
+        ],
+        "method": "GET",
         "order": [
           "Host",
           "Connection",
@@ -3495,7 +3528,8 @@
       {
         "originTypes": [
           "same-origin",
-          "same-site"
+          "same-site",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -3589,7 +3623,8 @@
       },
       {
         "originTypes": [
-          "cross-site"
+          "cross-site",
+          "same-origin"
         ],
         "method": "POST",
         "isRedirect": false,
