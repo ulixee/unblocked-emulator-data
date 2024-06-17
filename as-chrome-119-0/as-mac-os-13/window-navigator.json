@@ -73,7 +73,7 @@
       },
       "downlink": {
         "_$type": "number",
-        "_$value": 1.55
+        "_$value": 1.5
       },
       "saveData": {
         "_$type": "boolean",

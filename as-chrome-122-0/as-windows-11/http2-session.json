@@ -5,7 +5,6 @@
     "initialWindowSize": 6291456,
     "maxHeaderListSize": 262144
   },
-  "ping": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002",
   "initialWindowSize": 65535,
   "firstFrameWindowSize": 15728640
 }

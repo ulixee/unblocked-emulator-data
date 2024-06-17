@@ -1,6 +1,6 @@
 {
   "jsHighEntropyHints": {
-    "architecture": "x86",
+    "architecture": "arm",
     "bitness": "64",
     "brands": [
       {
@@ -40,7 +40,7 @@
   "documentHeaders": {
     "sec-ch-ua": "\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
     "sec-ch-viewport-height": "614",
-    "sec-ch-ua-arch": "\"x86\"",
+    "sec-ch-ua-arch": "\"arm\"",
     "sec-ch-viewport-width": "980",
     "sec-ch-device-memory": "8",
     "sec-ch-ua-platform-version": "\"12.5.1\"",
@@ -54,7 +54,7 @@
     "sec-ch-ua-wow64": "?0",
     "sec-ch-ua-platform": "\"macOS\"",
     "device-memory": "8",
-    "rtt": "0",
+    "rtt": "50",
     "sec-ch-ua-mobile": "?0",
     "viewport-width": "980",
     "sec-ch-ua-full-version": "\"117.0.5938.62\"",

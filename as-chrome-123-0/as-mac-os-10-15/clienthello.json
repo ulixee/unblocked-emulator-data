@@ -1,7 +1,7 @@
 {
   "version": "0x303 (TLS 1.2)",
   "ciphers": [
-    "{0x4A, 0x4A} GREASE",
+    "{0x9A, 0x9A} GREASE",
     "{0x13, 0x01} TLS_AES_128_GCM_SHA256",
     "{0x13, 0x02} TLS_AES_256_GCM_SHA384",
     "{0x13, 0x03} TLS_CHACHA20_POLY1305_SHA256",
@@ -24,7 +24,7 @@
   "extensions": [
     {
       "type": "GREASE",
-      "decimal": 14906,
+      "decimal": 35466,
       "values": []
     },
     {
@@ -35,20 +35,64 @@
       ]
     },
     {
-      "type": "UNKNOWN",
-      "decimal": 17513,
+      "type": "session_ticket",
+      "decimal": 35,
+      "values": []
+    },
+    {
+      "type": "ec_point_formats",
+      "decimal": 11,
       "values": [
-        "0000 - 00 03 02 68 32                                 ...h2"
+        "uncompressed (0)"
       ]
     },
     {
-      "type": "key_share",
-      "decimal": 51,
+      "type": "renegotiate",
+      "decimal": 65281,
       "values": [
-        "NamedGroup: GREASE (35466)",
-        "key_exchange:  (len=1): 00",
-        "NamedGroup: ecdh_x25519 (29)",
-        "key_exchange:  (len=32): D6E745FAF8496E888F3B4D3524B7F13667BA1BB9BEFD7E0B2DE67B0190EFC979"
+        "<EMPTY>"
+      ]
+    },
+    {
+      "type": "compress_certificate",
+      "decimal": 27,
+      "values": [
+        "0000 - 02 00 02                                       ..."
+      ]
+    },
+    {
+      "type": "psk_key_exchange_modes",
+      "decimal": 45,
+      "values": [
+        "psk_dhe_ke (1)"
+      ]
+    },
+    {
+      "type": "extended_master_secret",
+      "decimal": 23,
+      "values": []
+    },
+    {
+      "type": "UNKNOWN",
+      "decimal": 65037,
+      "values": [
+        "0000 - 00 00 01 00 01 35 00 20-da 9e 4b d6 23 b9 73   .....5. ..K.#.s",
+        "000f - 99 47 8c 67 eb 99 38 01-d2 18 bf 5a 8b ab 67   .G.g..8....Z..g",
+        "001e - 06 bf 86 95 db 9f 95 b6-e0 32 00 d0 55 37 19   .........2..U7.",
+        "002d - e7 9e be c8 d7 d7 1c d2-69 b9 fa 36 04 48 86   ........i..6.H.",
+        "003c - cf 99 02 29 3f 27 68 a6-bd bc fb 8a 5a ef bd   ...)?'h.....Z..",
+        "004b - 37 da 8f 93 59 54 fb 13-be d6 e6 89 54 04 56   7...YT......T.V",
+        "005a - 50 41 cd fa 7e b5 ae 57-9f 6a 0d 8e e5 06 50   PA..~..W.j....P",
+        "0069 - ed fd 22 46 40 7a fd c4-ac 59 12 c8 3a cd 70   ..\"F@z...Y..:.p",
+        "0078 - 77 9f 7d 3d 80 ca 18 b0-0d 36 02 24 1c d1 73   w.}=.....6.$..s",
+        "0087 - ac 48 72 6e 1a 68 37 35-23 1a 41 da a7 50 3a   .Hrn.h75#.A..P:",
+        "0096 - a1 e1 0f ed 3e fc 41 e3-bf 0e 4c 7e 9b 6f 39   ....>.A...L~.o9",
+        "00a5 - 91 f6 ef fa 46 aa e7 02-67 3f 83 72 67 0e 68   ....F...g?.rg.h",
+        "00b4 - cd 98 6a 17 75 67 e2 ba-91 45 cd 5d 31 aa cd   ..j.ug...E.]1..",
+        "00c3 - 54 e9 4f 81 d1 2c d2 5e-03 80 d7 0d a3 f1 65   T.O..,.^......e",
+        "00d2 - 93 a8 57 1f ca 67 f4 64-55 b1 50 c2 c4 da 74   ..W..g.dU.P...t",
+        "00e1 - 06 53 78 09 6c 0f 2f 38-a6 ca cb bd d5 bb b6   .Sx.l./8.......",
+        "00f0 - 9d 6c f4 34 2d 50 77 1d-c4 79                  .l.4-Pw..y"
       ]
     },
     {
@@ -66,10 +110,27 @@
       ]
     },
     {
-      "type": "psk_key_exchange_modes",
-      "decimal": 45,
+      "type": "signed_certificate_timestamps",
+      "decimal": 18,
+      "values": []
+    },
+    {
+      "type": "supported_versions",
+      "decimal": 43,
       "values": [
-        "psk_dhe_ke (1)"
+        "GREASE (14906)",
+        "TLS 1.3 (772)",
+        "TLS 1.2 (771)"
+      ]
+    },
+    {
+      "type": "key_share",
+      "decimal": 51,
+      "values": [
+        "NamedGroup: GREASE (27242)",
+        "key_exchange:  (len=1): 00",
+        "NamedGroup: ecdh_x25519 (29)",
+        "key_exchange:  (len=32): 8237E7DBEFD123814777ED2323A4860E8DCC5C45D101C6A1A9AFF371EB7BF732"
       ]
     },
     {
@@ -81,70 +142,6 @@
       ]
     },
     {
-      "type": "supported_versions",
-      "decimal": 43,
-      "values": [
-        "GREASE (35466)",
-        "TLS 1.3 (772)",
-        "TLS 1.2 (771)"
-      ]
-    },
-    {
-      "type": "renegotiate",
-      "decimal": 65281,
-      "values": [
-        "<EMPTY>"
-      ]
-    },
-    {
-      "type": "session_ticket",
-      "decimal": 35,
-      "values": []
-    },
-    {
-      "type": "supported_groups",
-      "decimal": 10,
-      "values": [
-        "GREASE (35466)",
-        "ecdh_x25519 (29)",
-        "secp256r1 (P-256) (23)",
-        "secp384r1 (P-384) (24)"
-      ]
-    },
-    {
-      "type": "ec_point_formats",
-      "decimal": 11,
-      "values": [
-        "uncompressed (0)"
-      ]
-    },
-    {
-      "type": "extended_master_secret",
-      "decimal": 23,
-      "values": []
-    },
-    {
-      "type": "UNKNOWN",
-      "decimal": 65037,
-      "values": [
-        "0000 - 00 00 01 00 01 5f 00 20-b8 2f 9c 52 ac 4b 67   ....._. ./.R.Kg",
-        "000f - 80 0a 51 1a 9c 73 23 b0-3a f3 d6 b8 74 73 6b   ..Q..s#.:...tsk",
-        "001e - 2c 05 c5 c5 71 fc 2a b9-24 14 00 b0 c5 ad 97   ,...q.*.$......",
-        "002d - dc 65 d2 7b ed 64 0e 6a-20 e4 ac fa 85 65 e2   .e.{.d.j ....e.",
-        "003c - 0f e2 6c 99 19 2a 67 8f-30 eb e1 c5 6b 7e 03   ..l..*g.0...k~.",
-        "004b - ed 4d 64 8a 9f 6e 02 40-11 b9 65 f0 c5 1b 3f   .Md..n.@..e...?",
-        "005a - e6 be 40 ed 9f 7f c2 39-f7 d4 49 d0 00 7f 8a   ..@....9..I....",
-        "0069 - 5e 53 82 bc 5e a4 7d e2-3f 22 85 41 d1 cb 13   ^S..^.}.?\".A...",
-        "0078 - fd d1 78 5d b2 23 3f 99-f8 dc 83 20 81 b1 59   ..x].#?.... ..Y",
-        "0087 - 3b ac f5 4d 8a 1e 5a 30-07 70 be 65 30 f3 b0   ;..M..Z0.p.e0..",
-        "0096 - 9d 0d 89 74 e9 37 03 cf-22 95 38 e2 43 a2 93   ...t.7..\".8.C..",
-        "00a5 - 49 1d 40 42 3d 91 c3 2f-00 4a bc a5 59 6f 43   I.@B=../.J..YoC",
-        "00b4 - cf d5 e1 41 10 70 9c dc-20 0b 49 0e 51 bf d5   ...A.p.. .I.Q..",
-        "00c3 - bc 74 d5 91 7e 5d ae 3c-5a 16 20 b8 a8 87 d3   .t..~].<Z. ....",
-        "00d2 - aa f6 c7 c7 39 ed 75 b0-                       ....9.u."
-      ]
-    },
-    {
       "type": "server_name",
       "decimal": 0,
       "values": [
@@ -153,20 +150,25 @@
       ]
     },
     {
-      "type": "compress_certificate",
-      "decimal": 27,
+      "type": "supported_groups",
+      "decimal": 10,
       "values": [
-        "0000 - 02 00 02                                       ..."
+        "GREASE (27242)",
+        "ecdh_x25519 (29)",
+        "secp256r1 (P-256) (23)",
+        "secp384r1 (P-384) (24)"
       ]
     },
     {
-      "type": "signed_certificate_timestamps",
-      "decimal": 18,
-      "values": []
+      "type": "UNKNOWN",
+      "decimal": 17513,
+      "values": [
+        "0000 - 00 03 02 68 32                                 ...h2"
+      ]
     },
     {
       "type": "GREASE",
-      "decimal": 35466,
+      "decimal": 10794,
       "values": [
         "0000 - 00                                             ."
       ]

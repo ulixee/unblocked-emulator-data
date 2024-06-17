@@ -38,32 +38,32 @@
         "requestTime": {
           "_$type": "number",
           "_$flags": "cew",
-          "_$value": 1709364168.798
+          "_$value": 1718635787.792
         },
         "startLoadTime": {
           "_$type": "number",
           "_$flags": "cew",
-          "_$value": 1709364168.798
+          "_$value": 1718635787.792
         },
         "commitLoadTime": {
           "_$type": "number",
           "_$flags": "cew",
-          "_$value": 1709364168.863
+          "_$value": 1718635787.844
         },
         "finishDocumentLoadTime": {
           "_$type": "number",
           "_$flags": "cew",
-          "_$value": 1709364171.205
+          "_$value": 1718635788.416
         },
         "finishLoadTime": {
           "_$type": "number",
           "_$flags": "cew",
-          "_$value": 1709364171.205
+          "_$value": 1718635788.437
         },
         "firstPaintTime": {
           "_$type": "number",
           "_$flags": "cew",
-          "_$value": 1709364171.207
+          "_$value": 1718635788.416
         },
         "firstPaintAfterLoadTime": {
           "_$type": "number",
@@ -104,7 +104,8 @@
       },
       "_$type": "function",
       "_$function": "function () { [native code] }",
-      "_$invocation": "{requestTime: 1709364168.798,startLoadTime: 1709364168.798,commitLoadTime: 1709364168.863,finishDocumentLoadTime: 1709364171.205,finishLoadTime: 1709364171.205,firstPaintTime: 1709364171.207,firstPaintAfterLoadTime: 0,navigationType: Other,wasFetchedViaSpdy: false,wasNpnNegotiated: true,npnNegotiatedProtocol: http/1.1,wasAlternateProtocolAvailable: false,connectionInfo: http/1.1}",
+      "_$invocation": "{requestTime: 1718635787.792,startLoadTime: 1718635787.792,commitLoadTime: 1718635787.844,finishDocumentLoadTime: 1718635788.416,finishLoadTime: 1718635788.437,firstPaintTime: 1718635788.416,firstPaintAfterLoadTime: 0,navigationType: Other,wasFetchedViaSpdy: false,wasNpnNegotiated: true,npnNegotiatedProtocol: http/1.1,wasAlternateProtocolAvailable: false,connectionInfo: http/1.1}",
+      "_$isAsync": false,
       "_$flags": "cew",
       "_$value": "function () { [native code] }"
     },
@@ -143,17 +144,17 @@
         "startE": {
           "_$type": "number",
           "_$flags": "cew",
-          "_$value": 1709364168798
+          "_$value": 1718635787792
         },
         "onloadT": {
           "_$type": "number",
           "_$flags": "cew",
-          "_$value": 1709364171205
+          "_$value": 1718635788416
         },
         "pageT": {
           "_$type": "number",
           "_$flags": "cew",
-          "_$value": 5040.689
+          "_$value": 9464.35
         },
         "tran": {
           "_$type": "number",
@@ -164,7 +165,8 @@
       },
       "_$type": "function",
       "_$function": "function () { [native code] }",
-      "_$invocation": "{startE: 1709364168798,onloadT: 1709364171205,pageT: 5040.856,tran: 15}",
+      "_$invocation": "{startE: 1718635787792,onloadT: 1718635788416,pageT: 9464.458,tran: 15}",
+      "_$isAsync": false,
       "_$flags": "cew",
       "_$value": "function () { [native code] }"
     },
@@ -191,6 +193,7 @@
         "_$type": "function",
         "_$function": "function getDetails() { [native code] }",
         "_$invocation": null,
+        "_$isAsync": false,
         "_$flags": "cew",
         "_$value": "function getDetails() { [native code] }"
       },
@@ -208,6 +211,7 @@
         "_$type": "function",
         "_$function": "function getIsInstalled() { [native code] }",
         "_$invocation": false,
+        "_$isAsync": false,
         "_$flags": "cew",
         "_$value": "function getIsInstalled() { [native code] }"
       },
@@ -224,6 +228,7 @@
         },
         "_$type": "function",
         "_$function": "function installState() { [native code] }",
+        "_$isAsync": false,
         "_$flags": "cew",
         "_$value": "function installState() { [native code] }"
       },
@@ -241,6 +246,7 @@
         "_$type": "function",
         "_$function": "function runningState() { [native code] }",
         "_$invocation": "cannot_run",
+        "_$isAsync": false,
         "_$flags": "cew",
         "_$value": "function runningState() { [native code] }"
       },

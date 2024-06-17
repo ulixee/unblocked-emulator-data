@@ -703,7 +703,7 @@
     },
     "hardwareConcurrency": {
       "_$type": "number",
-      "_$value": 4
+      "_$value": 8
     },
     "cookieEnabled": {
       "_$type": "boolean",

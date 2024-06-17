@@ -1,7 +1,7 @@
 {
   "version": "0x303 (TLS 1.2)",
   "ciphers": [
-    "{0x3A, 0x3A} GREASE",
+    "{0xBA, 0xBA} GREASE",
     "{0x13, 0x01} TLS_AES_128_GCM_SHA256",
     "{0x13, 0x02} TLS_AES_256_GCM_SHA384",
     "{0x13, 0x03} TLS_CHACHA20_POLY1305_SHA256",
@@ -24,8 +24,25 @@
   "extensions": [
     {
       "type": "GREASE",
-      "decimal": 27242,
+      "decimal": 31354,
       "values": []
+    },
+    {
+      "type": "supported_groups",
+      "decimal": 10,
+      "values": [
+        "GREASE (47802)",
+        "ecdh_x25519 (29)",
+        "secp256r1 (P-256) (23)",
+        "secp384r1 (P-384) (24)"
+      ]
+    },
+    {
+      "type": "status_request",
+      "decimal": 5,
+      "values": [
+        "0000 - 01 00 00 00 00                                 ....."
+      ]
     },
     {
       "type": "signed_certificate_timestamps",
@@ -33,20 +50,18 @@
       "values": []
     },
     {
-      "type": "key_share",
-      "decimal": 51,
+      "type": "application_layer_protocol_negotiation",
+      "decimal": 16,
       "values": [
-        "NamedGroup: GREASE (60138)",
-        "key_exchange:  (len=1): 00",
-        "NamedGroup: ecdh_x25519 (29)",
-        "key_exchange:  (len=32): 3FFA9762CEF6F38C1B5C486D106876679B45CBB1ADB079115C2ECB6DF14CCD6E"
+        "h2",
+        "http/1.1"
       ]
     },
     {
-      "type": "psk_key_exchange_modes",
-      "decimal": 45,
+      "type": "UNKNOWN",
+      "decimal": 17513,
       "values": [
-        "psk_dhe_ke (1)"
+        "0000 - 00 03 02 68 32                                 ...h2"
       ]
     },
     {
@@ -57,15 +72,10 @@
       ]
     },
     {
-      "type": "extended_master_secret",
-      "decimal": 23,
-      "values": []
-    },
-    {
-      "type": "UNKNOWN",
-      "decimal": 17513,
+      "type": "psk_key_exchange_modes",
+      "decimal": 45,
       "values": [
-        "0000 - 00 03 02 68 32                                 ...h2"
+        "psk_dhe_ke (1)"
       ]
     },
     {
@@ -83,30 +93,26 @@
       ]
     },
     {
-      "type": "supported_versions",
-      "decimal": 43,
+      "type": "session_ticket",
+      "decimal": 35,
+      "values": []
+    },
+    {
+      "type": "key_share",
+      "decimal": 51,
       "values": [
-        "GREASE (47802)",
-        "TLS 1.3 (772)",
-        "TLS 1.2 (771)"
+        "NamedGroup: GREASE (47802)",
+        "key_exchange:  (len=1): 00",
+        "NamedGroup: ecdh_x25519 (29)",
+        "key_exchange:  (len=32): 4E43187EDBBA73BB90D7B666EE74B9911F3D9DC29E5D4C972B19FDE8B3519A74"
       ]
     },
     {
-      "type": "supported_groups",
-      "decimal": 10,
+      "type": "server_name",
+      "decimal": 0,
       "values": [
-        "GREASE (60138)",
-        "ecdh_x25519 (29)",
-        "secp256r1 (P-256) (23)",
-        "secp384r1 (P-384) (24)"
-      ]
-    },
-    {
-      "type": "application_layer_protocol_negotiation",
-      "decimal": 16,
-      "values": [
-        "h2",
-        "http/1.1"
+        "0000 - 00 1c 00 00 19 74 6c 73-2e 64 61 2d 63 6f 6c   .....tls.da-col",
+        "000f - 6c 65 63 74 2e 75 6c 69-78 65 65 2e 6f 72 67   lect.ulixee.org"
       ]
     },
     {
@@ -124,28 +130,22 @@
       ]
     },
     {
-      "type": "session_ticket",
-      "decimal": 35,
+      "type": "extended_master_secret",
+      "decimal": 23,
       "values": []
     },
     {
-      "type": "server_name",
-      "decimal": 0,
+      "type": "supported_versions",
+      "decimal": 43,
       "values": [
-        "0000 - 00 1c 00 00 19 74 6c 73-2e 64 61 2d 63 6f 6c   .....tls.da-col",
-        "000f - 6c 65 63 74 2e 75 6c 69-78 65 65 2e 6f 72 67   lect.ulixee.org"
-      ]
-    },
-    {
-      "type": "status_request",
-      "decimal": 5,
-      "values": [
-        "0000 - 01 00 00 00 00                                 ....."
+        "GREASE (47802)",
+        "TLS 1.3 (772)",
+        "TLS 1.2 (771)"
       ]
     },
     {
       "type": "GREASE",
-      "decimal": 14906,
+      "decimal": 35466,
       "values": [
         "0000 - 00                                             ."
       ]

@@ -6,7 +6,7 @@
     "maxConcurrentStreams": 1000,
     "maxHeaderListSize": 262144
   },
-  "ping": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002",
+  "ping": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001",
   "initialWindowSize": 65535,
   "firstFrameWindowSize": 15728640
 }

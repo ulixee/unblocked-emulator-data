@@ -1014,6 +1014,19 @@
         "_$flags": "cw",
         "_$value": "function BluetoothUUID() { [native code] }"
       }
+    },
+    {
+      "path": "window.navigator",
+      "propertyName": "bluetooth",
+      "prevProperty": "webdriver",
+      "property": {
+        "_$protos": [
+          "Bluetooth.prototype",
+          "EventTarget.prototype",
+          "Object.prototype"
+        ],
+        "_$type": "object"
+      }
     }
   ],
   "remove": [
@@ -1050,7 +1063,13 @@
       "propertyName": "import"
     }
   ],
-  "modify": [],
+  "modify": [
+    {
+      "path": "window.navigator.platform",
+      "propertyName": "_$value",
+      "property": "MacIntel"
+    }
+  ],
   "reorder": [
     {
       "path": "window",

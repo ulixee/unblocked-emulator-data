@@ -1,7 +1,7 @@
 {
   "version": "0x303 (TLS 1.2)",
   "ciphers": [
-    "{0x4A, 0x4A} GREASE",
+    "{0x2A, 0x2A} GREASE",
     "{0x13, 0x01} TLS_AES_128_GCM_SHA256",
     "{0x13, 0x02} TLS_AES_256_GCM_SHA384",
     "{0x13, 0x03} TLS_CHACHA20_POLY1305_SHA256",
@@ -24,8 +24,48 @@
   "extensions": [
     {
       "type": "GREASE",
-      "decimal": 23130,
+      "decimal": 6682,
       "values": []
+    },
+    {
+      "type": "compress_certificate",
+      "decimal": 27,
+      "values": [
+        "0000 - 02 00 02                                       ..."
+      ]
+    },
+    {
+      "type": "key_share",
+      "decimal": 51,
+      "values": [
+        "NamedGroup: GREASE (35466)",
+        "key_exchange:  (len=1): 00",
+        "NamedGroup: ecdh_x25519 (29)",
+        "key_exchange:  (len=32): 1F939E8B07C65D05681EB25C0F721022F0E6DAAEE5BE50D75D6E3B4835A5170D"
+      ]
+    },
+    {
+      "type": "ec_point_formats",
+      "decimal": 11,
+      "values": [
+        "uncompressed (0)"
+      ]
+    },
+    {
+      "type": "supported_versions",
+      "decimal": 43,
+      "values": [
+        "GREASE (14906)",
+        "TLS 1.3 (772)",
+        "TLS 1.2 (771)"
+      ]
+    },
+    {
+      "type": "status_request",
+      "decimal": 5,
+      "values": [
+        "0000 - 01 00 00 00 00                                 ....."
+      ]
     },
     {
       "type": "session_ticket",
@@ -33,13 +73,22 @@
       "values": []
     },
     {
-      "type": "supported_groups",
-      "decimal": 10,
+      "type": "signed_certificate_timestamps",
+      "decimal": 18,
+      "values": []
+    },
+    {
+      "type": "psk_key_exchange_modes",
+      "decimal": 45,
       "values": [
-        "GREASE (47802)",
-        "ecdh_x25519 (29)",
-        "secp256r1 (P-256) (23)",
-        "secp384r1 (P-384) (24)"
+        "psk_dhe_ke (1)"
+      ]
+    },
+    {
+      "type": "UNKNOWN",
+      "decimal": 17513,
+      "values": [
+        "0000 - 00 03 02 68 32                                 ...h2"
       ]
     },
     {
@@ -51,47 +100,9 @@
       ]
     },
     {
-      "type": "server_name",
-      "decimal": 0,
-      "values": [
-        "0000 - 00 1c 00 00 19 74 6c 73-2e 64 61 2d 63 6f 6c   .....tls.da-col",
-        "000f - 6c 65 63 74 2e 75 6c 69-78 65 65 2e 6f 72 67   lect.ulixee.org"
-      ]
-    },
-    {
-      "type": "UNKNOWN",
-      "decimal": 17513,
-      "values": [
-        "0000 - 00 03 02 68 32                                 ...h2"
-      ]
-    },
-    {
-      "type": "compress_certificate",
-      "decimal": 27,
-      "values": [
-        "0000 - 02 00 02                                       ..."
-      ]
-    },
-    {
-      "type": "supported_versions",
-      "decimal": 43,
-      "values": [
-        "GREASE (19018)",
-        "TLS 1.3 (772)",
-        "TLS 1.2 (771)"
-      ]
-    },
-    {
-      "type": "signed_certificate_timestamps",
-      "decimal": 18,
+      "type": "extended_master_secret",
+      "decimal": 23,
       "values": []
-    },
-    {
-      "type": "ec_point_formats",
-      "decimal": 11,
-      "values": [
-        "uncompressed (0)"
-      ]
     },
     {
       "type": "signature_algorithms",
@@ -108,16 +119,6 @@
       ]
     },
     {
-      "type": "key_share",
-      "decimal": 51,
-      "values": [
-        "NamedGroup: GREASE (47802)",
-        "key_exchange:  (len=1): 00",
-        "NamedGroup: ecdh_x25519 (29)",
-        "key_exchange:  (len=32): C21ECBD83FC1C86143D15D3B670C07103C79CE6E74BF0D109E2AD3B078B41232"
-      ]
-    },
-    {
       "type": "renegotiate",
       "decimal": 65281,
       "values": [
@@ -125,27 +126,26 @@
       ]
     },
     {
-      "type": "psk_key_exchange_modes",
-      "decimal": 45,
+      "type": "server_name",
+      "decimal": 0,
       "values": [
-        "psk_dhe_ke (1)"
+        "0000 - 00 1c 00 00 19 74 6c 73-2e 64 61 2d 63 6f 6c   .....tls.da-col",
+        "000f - 6c 65 63 74 2e 75 6c 69-78 65 65 2e 6f 72 67   lect.ulixee.org"
       ]
     },
     {
-      "type": "extended_master_secret",
-      "decimal": 23,
-      "values": []
-    },
-    {
-      "type": "status_request",
-      "decimal": 5,
+      "type": "supported_groups",
+      "decimal": 10,
       "values": [
-        "0000 - 01 00 00 00 00                                 ....."
+        "GREASE (35466)",
+        "ecdh_x25519 (29)",
+        "secp256r1 (P-256) (23)",
+        "secp384r1 (P-384) (24)"
       ]
     },
     {
       "type": "GREASE",
-      "decimal": 27242,
+      "decimal": 19018,
       "values": [
         "0000 - 00                                             ."
       ]

@@ -73,7 +73,7 @@
       },
       "downlink": {
         "_$type": "number",
-        "_$value": 1.3
+        "_$value": 1.6
       },
       "saveData": {
         "_$type": "boolean",
@@ -719,7 +719,7 @@
     },
     "hardwareConcurrency": {
       "_$type": "number",
-      "_$value": 8
+      "_$value": 4
     },
     "cookieEnabled": {
       "_$type": "boolean",

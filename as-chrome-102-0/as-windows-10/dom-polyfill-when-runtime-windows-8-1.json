@@ -973,6 +973,19 @@
         "_$flags": "cw",
         "_$value": "function BluetoothUUID() { [native code] }"
       }
+    },
+    {
+      "path": "window.navigator",
+      "propertyName": "bluetooth",
+      "prevProperty": "scheduling",
+      "property": {
+        "_$protos": [
+          "Bluetooth.prototype",
+          "EventTarget.prototype",
+          "Object.prototype"
+        ],
+        "_$type": "object"
+      }
     }
   ],
   "remove": [

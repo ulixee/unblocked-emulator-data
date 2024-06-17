@@ -1,7 +1,7 @@
 {
   "version": "0x303 (TLS 1.2)",
   "ciphers": [
-    "{0xFA, 0xFA} GREASE",
+    "{0xAA, 0xAA} GREASE",
     "{0x13, 0x01} TLS_AES_128_GCM_SHA256",
     "{0x13, 0x02} TLS_AES_256_GCM_SHA384",
     "{0x13, 0x03} TLS_CHACHA20_POLY1305_SHA256",
@@ -24,20 +24,8 @@
   "extensions": [
     {
       "type": "GREASE",
-      "decimal": 6682,
+      "decimal": 56026,
       "values": []
-    },
-    {
-      "type": "signed_certificate_timestamps",
-      "decimal": 18,
-      "values": []
-    },
-    {
-      "type": "compress_certificate",
-      "decimal": 27,
-      "values": [
-        "0000 - 02 00 02                                       ..."
-      ]
     },
     {
       "type": "server_name",
@@ -48,13 +36,6 @@
       ]
     },
     {
-      "type": "ec_point_formats",
-      "decimal": 11,
-      "values": [
-        "uncompressed (0)"
-      ]
-    },
-    {
       "type": "status_request",
       "decimal": 5,
       "values": [
@@ -62,32 +43,20 @@
       ]
     },
     {
-      "type": "extended_master_secret",
-      "decimal": 23,
-      "values": []
+      "type": "ec_point_formats",
+      "decimal": 11,
+      "values": [
+        "uncompressed (0)"
+      ]
     },
     {
       "type": "supported_groups",
       "decimal": 10,
       "values": [
-        "GREASE (31354)",
+        "GREASE (2570)",
         "ecdh_x25519 (29)",
         "secp256r1 (P-256) (23)",
         "secp384r1 (P-384) (24)"
-      ]
-    },
-    {
-      "type": "signature_algorithms",
-      "decimal": 13,
-      "values": [
-        "ecdsa_secp256r1_sha256 (0x0403)",
-        "rsa_pss_rsae_sha256 (0x0804)",
-        "rsa_pkcs1_sha256 (0x0401)",
-        "ecdsa_secp384r1_sha384 (0x0503)",
-        "rsa_pss_rsae_sha384 (0x0805)",
-        "rsa_pkcs1_sha384 (0x0501)",
-        "rsa_pss_rsae_sha512 (0x0806)",
-        "rsa_pkcs1_sha512 (0x0601)"
       ]
     },
     {
@@ -96,10 +65,13 @@
       "values": []
     },
     {
-      "type": "psk_key_exchange_modes",
-      "decimal": 45,
+      "type": "key_share",
+      "decimal": 51,
       "values": [
-        "psk_dhe_ke (1)"
+        "NamedGroup: GREASE (2570)",
+        "key_exchange:  (len=1): 00",
+        "NamedGroup: ecdh_x25519 (29)",
+        "key_exchange:  (len=32): CDE3E65C94CFF046D504A11246F59F0947D5AD5E47A4D8414B6FF79F3A374542"
       ]
     },
     {
@@ -118,6 +90,30 @@
       ]
     },
     {
+      "type": "psk_key_exchange_modes",
+      "decimal": 45,
+      "values": [
+        "psk_dhe_ke (1)"
+      ]
+    },
+    {
+      "type": "signed_certificate_timestamps",
+      "decimal": 18,
+      "values": []
+    },
+    {
+      "type": "compress_certificate",
+      "decimal": 27,
+      "values": [
+        "0000 - 02 00 02                                       ..."
+      ]
+    },
+    {
+      "type": "extended_master_secret",
+      "decimal": 23,
+      "values": []
+    },
+    {
       "type": "UNKNOWN",
       "decimal": 17513,
       "values": [
@@ -128,24 +124,28 @@
       "type": "supported_versions",
       "decimal": 43,
       "values": [
-        "GREASE (2570)",
+        "GREASE (31354)",
         "TLS 1.3 (772)",
         "TLS 1.2 (771)"
       ]
     },
     {
-      "type": "key_share",
-      "decimal": 51,
+      "type": "signature_algorithms",
+      "decimal": 13,
       "values": [
-        "NamedGroup: GREASE (31354)",
-        "key_exchange:  (len=1): 00",
-        "NamedGroup: ecdh_x25519 (29)",
-        "key_exchange:  (len=32): FA6C903B256AD3EFC3AD042920BC375440E4611DDC671C58C35BD8FE6DF8C073"
+        "ecdsa_secp256r1_sha256 (0x0403)",
+        "rsa_pss_rsae_sha256 (0x0804)",
+        "rsa_pkcs1_sha256 (0x0401)",
+        "ecdsa_secp384r1_sha384 (0x0503)",
+        "rsa_pss_rsae_sha384 (0x0805)",
+        "rsa_pkcs1_sha384 (0x0501)",
+        "rsa_pss_rsae_sha512 (0x0806)",
+        "rsa_pkcs1_sha512 (0x0601)"
       ]
     },
     {
       "type": "GREASE",
-      "decimal": 2570,
+      "decimal": 43690,
       "values": [
         "0000 - 00                                             ."
       ]

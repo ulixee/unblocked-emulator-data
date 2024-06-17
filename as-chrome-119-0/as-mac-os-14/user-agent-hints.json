@@ -33,7 +33,7 @@
     "mobile": false,
     "model": "",
     "platform": "macOS",
-    "platformVersion": "14.0.0",
+    "platformVersion": "14.3.0",
     "uaFullVersion": "119.0.6045.105",
     "wow64": false
   },
@@ -43,7 +43,7 @@
     "sec-ch-ua-arch": "\"arm\"",
     "sec-ch-viewport-width": "980",
     "sec-ch-device-memory": "8",
-    "sec-ch-ua-platform-version": "\"14.0.0\"",
+    "sec-ch-ua-platform-version": "\"14.3.0\"",
     "sec-ch-prefers-reduced-transparency": "no-preference",
     "sec-ch-prefers-reduced-motion": "no-preference",
     "dpr": "1",

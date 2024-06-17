@@ -90,7 +90,13 @@
       "propertyName": "import"
     }
   ],
-  "modify": [],
+  "modify": [
+    {
+      "path": "window.navigator.platform",
+      "propertyName": "_$value",
+      "property": "Win32"
+    }
+  ],
   "reorder": [
     {
       "path": "window.document",

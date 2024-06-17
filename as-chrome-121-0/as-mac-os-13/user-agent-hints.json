@@ -1,6 +1,6 @@
 {
   "jsHighEntropyHints": {
-    "architecture": "x86",
+    "architecture": "arm",
     "bitness": "64",
     "brands": [
       {
@@ -40,7 +40,7 @@
   "documentHeaders": {
     "sec-ch-ua": "\"Not A(Brand\";v=\"99\", \"Google Chrome\";v=\"121\", \"Chromium\";v=\"121\"",
     "sec-ch-viewport-height": "614",
-    "sec-ch-ua-arch": "\"x86\"",
+    "sec-ch-ua-arch": "\"arm\"",
     "sec-ch-viewport-width": "980",
     "sec-ch-device-memory": "8",
     "sec-ch-ua-platform-version": "\"13.4.1\"",

@@ -128,7 +128,13 @@
       "propertyName": "import"
     }
   ],
-  "modify": [],
+  "modify": [
+    {
+      "path": "window.navigator.platform",
+      "propertyName": "_$value",
+      "property": "MacIntel"
+    }
+  ],
   "reorder": [
     {
       "path": "window",
