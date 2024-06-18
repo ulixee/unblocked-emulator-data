@@ -138,11 +138,6 @@
       "property": 4035
     },
     {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "MacIntel"
-    },
-    {
       "path": "window.GPU.prototype.requestAdapter",
       "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
       "property": "{}"

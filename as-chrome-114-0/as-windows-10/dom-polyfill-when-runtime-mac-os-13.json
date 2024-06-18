@@ -95,11 +95,6 @@
   ],
   "modify": [
     {
-      "path": "window.Intl.DateTimeFormat.prototype.formatToParts",
-      "propertyName": "_$otherInvocation.window.Intl.DateTimeFormat.new().formatToParts",
-      "property": "[{type: month,value: 6},{type: literal,value: /},{type: day,value: 17},{type: literal,value: /},{type: year,value: 2024}]"
-    },
-    {
       "path": "window.Intl.DateTimeFormat.new().format",
       "propertyName": "_$invocation",
       "property": "6/17/2024"
@@ -108,11 +103,6 @@
       "path": "window.Animation.new().finished.startTime",
       "propertyName": "_$value",
       "property": 6937.013999999999
-    },
-    {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "Win32"
     },
     {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",

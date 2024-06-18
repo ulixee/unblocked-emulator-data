@@ -86,12 +86,6 @@
       "propertyName": "import"
     }
   ],
-  "modify": [
-    {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "Win32"
-    }
-  ],
+  "modify": [],
   "reorder": []
 }

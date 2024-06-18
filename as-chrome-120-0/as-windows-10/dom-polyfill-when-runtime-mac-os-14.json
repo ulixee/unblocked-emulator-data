@@ -100,11 +100,6 @@
       "property": 5620.099999999999
     },
     {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "Win32"
-    },
-    {
       "path": "window.GPU.prototype.requestAdapter",
       "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
       "property": null

@@ -138,19 +138,9 @@
       "property": 2855.1000000000004
     },
     {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "MacIntel"
-    },
-    {
       "path": "window.GPU.prototype.requestAdapter",
       "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
       "property": "{}"
-    },
-    {
-      "path": "window.MediaDevices.prototype.enumerateDevices",
-      "propertyName": "_$otherInvocationAsync.window.navigator.mediaDevices.enumerateDevices",
-      "property": "[{},{}]"
     },
     {
       "path": "window.Bluetooth.prototype.getAvailability",

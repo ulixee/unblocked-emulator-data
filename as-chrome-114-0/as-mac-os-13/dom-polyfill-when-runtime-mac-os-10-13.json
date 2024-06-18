@@ -32,19 +32,9 @@
   ],
   "modify": [
     {
-      "path": "window.Intl.DateTimeFormat.prototype.formatToParts",
-      "propertyName": "_$otherInvocation.window.Intl.DateTimeFormat.new().formatToParts",
-      "property": "[{type: month,value: 6},{type: literal,value: /},{type: day,value: 18},{type: literal,value: /},{type: year,value: 2024}]"
-    },
-    {
       "path": "window.Intl.DateTimeFormat.new().format",
       "propertyName": "_$invocation",
       "property": "6/18/2024"
-    },
-    {
-      "path": "window.Navigator.prototype.requestMIDIAccess",
-      "propertyName": "_$otherInvocationAsync.window.navigator.requestMIDIAccess",
-      "property": "{}"
     },
     {
       "path": "window.Bluetooth.prototype.getAvailability",

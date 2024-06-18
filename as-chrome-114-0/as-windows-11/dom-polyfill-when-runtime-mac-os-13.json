@@ -95,11 +95,6 @@
   ],
   "modify": [
     {
-      "path": "window.Intl.DateTimeFormat.prototype.formatToParts",
-      "propertyName": "_$otherInvocation.window.Intl.DateTimeFormat.new().formatToParts",
-      "property": "[{type: month,value: 6},{type: literal,value: /},{type: day,value: 17},{type: literal,value: /},{type: year,value: 2024}]"
-    },
-    {
       "path": "window.Intl.DateTimeFormat.new().format",
       "propertyName": "_$invocation",
       "property": "6/17/2024"
@@ -110,24 +105,9 @@
       "property": "WrongDocumentError: The root document of this element is not valid for pointer lock."
     },
     {
-      "path": "window.Document.prototype.hasFocus",
-      "propertyName": "_$otherInvocation.window.document.hasFocus",
-      "property": false
-    },
-    {
       "path": "window.Animation.new().finished.startTime",
       "propertyName": "_$value",
       "property": 5647.776000000001
-    },
-    {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "Win32"
-    },
-    {
-      "path": "window.Clipboard.prototype.readText",
-      "propertyName": "_$otherInvocationAsync.window.navigator.clipboard.readText",
-      "property": "NotAllowedError: Document is not focused."
     },
     {
       "path": "window.Bluetooth.prototype.getAvailability",

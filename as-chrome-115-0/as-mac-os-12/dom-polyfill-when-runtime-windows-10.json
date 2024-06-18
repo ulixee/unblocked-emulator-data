@@ -138,11 +138,6 @@
       "property": 3789.0860000000002
     },
     {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "MacIntel"
-    },
-    {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": true

@@ -100,19 +100,9 @@
       "property": "NotAllowedError: A user gesture is required to request Pointer Lock."
     },
     {
-      "path": "window.Document.prototype.hasFocus",
-      "propertyName": "_$otherInvocation.window.document.hasFocus",
-      "property": true
-    },
-    {
       "path": "window.Animation.new().finished.startTime",
       "propertyName": "_$value",
       "property": 5029.099999999999
-    },
-    {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "Win32"
     },
     {
       "path": "window.GPU.prototype.requestAdapter",

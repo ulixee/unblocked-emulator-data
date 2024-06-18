@@ -32,11 +32,6 @@
   ],
   "modify": [
     {
-      "path": "window.Navigator.prototype.requestMIDIAccess",
-      "propertyName": "_$otherInvocationAsync.window.navigator.requestMIDIAccess",
-      "property": "{}"
-    },
-    {
       "path": "window.Animation.new().finished.startTime",
       "propertyName": "_$value",
       "property": 2782.178

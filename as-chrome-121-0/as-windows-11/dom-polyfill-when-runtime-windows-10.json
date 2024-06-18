@@ -32,11 +32,6 @@
   ],
   "modify": [
     {
-      "path": "window.MediaDevices.prototype.enumerateDevices",
-      "propertyName": "_$otherInvocationAsync.window.navigator.mediaDevices.enumerateDevices",
-      "property": "[{},{}]"
-    },
-    {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": true

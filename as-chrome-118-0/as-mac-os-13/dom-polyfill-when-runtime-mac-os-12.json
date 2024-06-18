@@ -30,17 +30,6 @@
       "propertyName": "import"
     }
   ],
-  "modify": [
-    {
-      "path": "window.Navigator.prototype.requestMIDIAccess",
-      "propertyName": "_$otherInvocationAsync.window.navigator.requestMIDIAccess",
-      "property": "{}"
-    },
-    {
-      "path": "window.MediaDevices.prototype.enumerateDevices",
-      "propertyName": "_$otherInvocationAsync.window.navigator.mediaDevices.enumerateDevices",
-      "property": "[{}]"
-    }
-  ],
+  "modify": [],
   "reorder": []
 }

@@ -32,11 +32,6 @@
   ],
   "modify": [
     {
-      "path": "window.Intl.DateTimeFormat.prototype.formatToParts",
-      "propertyName": "_$otherInvocation.window.Intl.DateTimeFormat.new().formatToParts",
-      "property": "[{type: month,value: 6},{type: literal,value: /},{type: day,value: 17},{type: literal,value: /},{type: year,value: 2024}]"
-    },
-    {
       "path": "window.Intl.DateTimeFormat.new().format",
       "propertyName": "_$invocation",
       "property": "6/17/2024"

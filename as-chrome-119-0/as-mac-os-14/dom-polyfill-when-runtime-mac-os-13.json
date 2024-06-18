@@ -32,19 +32,9 @@
   ],
   "modify": [
     {
-      "path": "window.Navigator.prototype.requestMIDIAccess",
-      "propertyName": "_$otherInvocationAsync.window.navigator.requestMIDIAccess",
-      "property": "{}"
-    },
-    {
       "path": "window.Animation.new().finished.startTime",
       "propertyName": "_$value",
       "property": 2855.1000000000004
-    },
-    {
-      "path": "window.MediaDevices.prototype.enumerateDevices",
-      "propertyName": "_$otherInvocationAsync.window.navigator.mediaDevices.enumerateDevices",
-      "property": "[{},{}]"
     }
   ],
   "reorder": []

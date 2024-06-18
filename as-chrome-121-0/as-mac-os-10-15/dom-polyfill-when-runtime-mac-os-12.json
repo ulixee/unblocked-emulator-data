@@ -32,11 +32,6 @@
   ],
   "modify": [
     {
-      "path": "window.MediaDevices.prototype.enumerateDevices",
-      "propertyName": "_$otherInvocationAsync.window.navigator.mediaDevices.enumerateDevices",
-      "property": "[{},{}]"
-    },
-    {
       "path": "window.StorageManager.prototype.getDirectory",
       "propertyName": "_$otherInvocationAsync.window.navigator.storage.getDirectory",
       "property": "{}"

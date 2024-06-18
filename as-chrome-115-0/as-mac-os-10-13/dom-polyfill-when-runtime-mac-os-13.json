@@ -37,11 +37,6 @@
       "property": "NotAllowedError: A user gesture is required to request Pointer Lock."
     },
     {
-      "path": "window.Document.prototype.hasFocus",
-      "propertyName": "_$otherInvocation.window.document.hasFocus",
-      "property": true
-    },
-    {
       "path": "window.Bluetooth.prototype.getAvailability",
       "propertyName": "_$otherInvocationAsync.window.navigator.bluetooth.getAvailability",
       "property": false

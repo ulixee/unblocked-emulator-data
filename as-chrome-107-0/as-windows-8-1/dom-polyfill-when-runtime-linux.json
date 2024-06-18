@@ -703,11 +703,6 @@
       "property": true
     },
     {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "Win32"
-    },
-    {
       "path": "window.Notification.permission",
       "propertyName": "_$value",
       "property": "default"

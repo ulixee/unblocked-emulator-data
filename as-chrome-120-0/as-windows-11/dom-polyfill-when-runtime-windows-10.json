@@ -32,11 +32,6 @@
   ],
   "modify": [
     {
-      "path": "window.Clipboard.prototype.readText",
-      "propertyName": "_$otherInvocationAsync.window.navigator.clipboard.readText",
-      "property": "NotAllowedError: Document is not focused."
-    },
-    {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": true

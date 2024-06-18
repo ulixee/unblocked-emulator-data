@@ -100,11 +100,6 @@
       "property": 6937.013999999999
     },
     {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "Win32"
-    },
-    {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": false

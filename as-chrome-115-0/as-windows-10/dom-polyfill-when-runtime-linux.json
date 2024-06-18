@@ -1056,33 +1056,13 @@
   ],
   "modify": [
     {
-      "path": "window.Intl.DateTimeFormat.prototype.formatToParts",
-      "propertyName": "_$otherInvocation.window.Intl.DateTimeFormat.new().formatToParts",
-      "property": "[{type: month,value: 6},{type: literal,value: /},{type: day,value: 17},{type: literal,value: /},{type: year,value: 2024}]"
-    },
-    {
       "path": "window.Intl.DateTimeFormat.new().format",
       "propertyName": "_$invocation",
       "property": "6/17/2024"
     },
     {
-      "path": "window.Navigator.prototype.requestMIDIAccess",
-      "propertyName": "_$otherInvocationAsync.window.navigator.requestMIDIAccess",
-      "property": "{}"
-    },
-    {
-      "path": "window.FeaturePolicy.prototype.allowedFeatures",
-      "propertyName": "_$otherInvocation.window.Document.new().featurePolicy.allowedFeatures",
-      "property": "[geolocation,gamepad,ch-ect,midi,display-capture,usb,local-fonts,picture-in-picture,publickey-credentials-get,otp-credentials,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,serial,camera,ch-prefers-reduced-motion,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,keyboard-map,ch-ua-platform,gyroscope,window-placement,ch-ua-mobile,ch-ua,magnetometer,accelerometer,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
-    },
-    {
       "path": "window.FeaturePolicy.prototype.allowedFeatures",
       "propertyName": "_$otherInvocation.window.document.featurePolicy.allowedFeatures",
-      "property": "[geolocation,gamepad,ch-ect,midi,display-capture,usb,local-fonts,picture-in-picture,publickey-credentials-get,otp-credentials,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,serial,camera,ch-prefers-reduced-motion,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,keyboard-map,ch-ua-platform,gyroscope,window-placement,ch-ua-mobile,ch-ua,magnetometer,accelerometer,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
-    },
-    {
-      "path": "window.FeaturePolicy.prototype.features",
-      "propertyName": "_$otherInvocation.window.Document.new().featurePolicy.features",
       "property": "[geolocation,gamepad,ch-ect,midi,display-capture,usb,local-fonts,picture-in-picture,publickey-credentials-get,otp-credentials,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,serial,camera,ch-prefers-reduced-motion,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,keyboard-map,ch-ua-platform,gyroscope,window-placement,ch-ua-mobile,ch-ua,magnetometer,accelerometer,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
     },
     {
@@ -1094,21 +1074,6 @@
       "path": "window.Element.prototype.requestPointerLock",
       "propertyName": "_$otherInvocationAsync.window.document.documentElement.requestPointerLock",
       "property": "NotAllowedError: A user gesture is required to request Pointer Lock."
-    },
-    {
-      "path": "window.Document.prototype.hasFocus",
-      "propertyName": "_$otherInvocation.window.document.hasFocus",
-      "property": true
-    },
-    {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "Win32"
-    },
-    {
-      "path": "window.MediaDevices.prototype.enumerateDevices",
-      "propertyName": "_$otherInvocationAsync.window.navigator.mediaDevices.enumerateDevices",
-      "property": "[{},{}]"
     }
   ],
   "reorder": [

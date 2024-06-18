@@ -37,16 +37,6 @@
       "property": "WrongDocumentError: The root document of this element is not valid for pointer lock."
     },
     {
-      "path": "window.Document.prototype.hasFocus",
-      "propertyName": "_$otherInvocation.window.document.hasFocus",
-      "property": false
-    },
-    {
-      "path": "window.Clipboard.prototype.readText",
-      "propertyName": "_$otherInvocationAsync.window.navigator.clipboard.readText",
-      "property": "NotAllowedError: Document is not focused."
-    },
-    {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": true

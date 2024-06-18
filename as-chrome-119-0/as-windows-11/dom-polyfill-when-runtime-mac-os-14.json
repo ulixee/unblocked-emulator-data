@@ -100,16 +100,6 @@
       "property": 5182.425
     },
     {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "Win32"
-    },
-    {
-      "path": "window.Clipboard.prototype.readText",
-      "propertyName": "_$otherInvocationAsync.window.navigator.clipboard.readText",
-      "property": "NotAllowedError: Document is not focused."
-    },
-    {
       "path": "window.GPU.prototype.requestAdapter",
       "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
       "property": null

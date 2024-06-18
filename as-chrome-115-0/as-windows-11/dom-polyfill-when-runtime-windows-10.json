@@ -37,11 +37,6 @@
       "property": 6623.986999999999
     },
     {
-      "path": "window.Clipboard.prototype.readText",
-      "propertyName": "_$otherInvocationAsync.window.navigator.clipboard.readText",
-      "property": "NotAllowedError: Document is not focused."
-    },
-    {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": true

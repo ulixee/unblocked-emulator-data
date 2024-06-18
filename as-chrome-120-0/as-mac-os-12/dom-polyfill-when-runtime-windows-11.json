@@ -138,19 +138,9 @@
       "property": "WrongDocumentError: The root document of this element is not valid for pointer lock."
     },
     {
-      "path": "window.Document.prototype.hasFocus",
-      "propertyName": "_$otherInvocation.window.document.hasFocus",
-      "property": false
-    },
-    {
       "path": "window.Animation.new().finished.startTime",
       "propertyName": "_$value",
       "property": 4192.1
-    },
-    {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "MacIntel"
     },
     {
       "path": "window.GPU.prototype.requestAdapter",

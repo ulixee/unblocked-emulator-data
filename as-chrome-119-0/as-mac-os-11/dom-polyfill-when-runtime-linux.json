@@ -1102,17 +1102,7 @@
   "modify": [
     {
       "path": "window.FeaturePolicy.prototype.allowedFeatures",
-      "propertyName": "_$otherInvocation.window.Document.new().featurePolicy.allowedFeatures",
-      "property": "[geolocation,storage-access,gamepad,ch-ect,midi,display-capture,usb,local-fonts,picture-in-picture,publickey-credentials-get,otp-credentials,ch-ua-form-factor,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,ch-prefers-reduced-transparency,serial,camera,ch-prefers-reduced-motion,private-state-token-issuance,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,unload,keyboard-map,ch-ua-platform,gyroscope,ch-ua-mobile,window-management,ch-ua,magnetometer,accelerometer,private-state-token-redemption,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
-    },
-    {
-      "path": "window.FeaturePolicy.prototype.allowedFeatures",
       "propertyName": "_$otherInvocation.window.document.featurePolicy.allowedFeatures",
-      "property": "[geolocation,storage-access,gamepad,ch-ect,midi,display-capture,usb,local-fonts,picture-in-picture,publickey-credentials-get,otp-credentials,ch-ua-form-factor,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,ch-prefers-reduced-transparency,serial,camera,ch-prefers-reduced-motion,private-state-token-issuance,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,unload,keyboard-map,ch-ua-platform,gyroscope,ch-ua-mobile,window-management,ch-ua,magnetometer,accelerometer,private-state-token-redemption,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
-    },
-    {
-      "path": "window.FeaturePolicy.prototype.features",
-      "propertyName": "_$otherInvocation.window.Document.new().featurePolicy.features",
       "property": "[geolocation,storage-access,gamepad,ch-ect,midi,display-capture,usb,local-fonts,picture-in-picture,publickey-credentials-get,otp-credentials,ch-ua-form-factor,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,ch-prefers-reduced-transparency,serial,camera,ch-prefers-reduced-motion,private-state-token-issuance,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,unload,keyboard-map,ch-ua-platform,gyroscope,ch-ua-mobile,window-management,ch-ua,magnetometer,accelerometer,private-state-token-redemption,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
     },
     {
@@ -1126,24 +1116,9 @@
       "property": "NotAllowedError: A user gesture is required to request Pointer Lock."
     },
     {
-      "path": "window.Document.prototype.hasFocus",
-      "propertyName": "_$otherInvocation.window.document.hasFocus",
-      "property": true
-    },
-    {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "MacIntel"
-    },
-    {
       "path": "window.GPU.prototype.requestAdapter",
       "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
       "property": "{}"
-    },
-    {
-      "path": "window.MediaDevices.prototype.enumerateDevices",
-      "propertyName": "_$otherInvocationAsync.window.navigator.mediaDevices.enumerateDevices",
-      "property": "[{},{}]"
     },
     {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",

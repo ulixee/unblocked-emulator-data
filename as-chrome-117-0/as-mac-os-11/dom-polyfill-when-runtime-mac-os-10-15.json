@@ -35,11 +35,6 @@
       "path": "window.Element.prototype.requestPointerLock",
       "propertyName": "_$otherInvocationAsync.window.document.documentElement.requestPointerLock",
       "property": "NotAllowedError: A user gesture is required to request Pointer Lock."
-    },
-    {
-      "path": "window.Document.prototype.hasFocus",
-      "propertyName": "_$otherInvocation.window.document.hasFocus",
-      "property": true
     }
   ],
   "reorder": []

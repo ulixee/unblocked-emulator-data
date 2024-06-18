@@ -1724,11 +1724,6 @@
   ],
   "modify": [
     {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "MacIntel"
-    },
-    {
       "path": "window.navigator.pdfViewerEnabled",
       "propertyName": "_$value",
       "property": true

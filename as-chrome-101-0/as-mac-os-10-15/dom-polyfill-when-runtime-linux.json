@@ -1729,11 +1729,6 @@
       "property": true
     },
     {
-      "path": "window.navigator.platform",
-      "propertyName": "_$value",
-      "property": "MacIntel"
-    },
-    {
       "path": "window.Notification.permission",
       "propertyName": "_$value",
       "property": "default"
