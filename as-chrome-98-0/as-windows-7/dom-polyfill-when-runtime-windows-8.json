@@ -18,10 +18,6 @@
       "propertyName": "registerElement"
     },
     {
-      "path": "window.document",
-      "propertyName": "$cdc_asdjflasutopfhvcZLmcfl_"
-    },
-    {
       "path": "window",
       "propertyName": "cdc_adoQpoasnfa76pfcZLmcfl"
     },
@@ -30,6 +26,12 @@
       "propertyName": "import"
     }
   ],
-  "modify": [],
+  "modify": [
+    {
+      "path": "window.document.$cdc_asdjflasutopfhvcZLmcfl_.storeItem.new()",
+      "propertyName": "_$constructorException",
+      "property": "TypeError: Cannot set properties of undefined (setting '82d5a253-c13c-46d1-80cc-42d281c0ebf3')"
+    }
+  ],
   "reorder": []
 }

@@ -116,10 +116,6 @@
       "propertyName": "registerElement"
     },
     {
-      "path": "window.document",
-      "propertyName": "$cdc_asdjflasutopfhvcZLmcfl_"
-    },
-    {
       "path": "window",
       "propertyName": "cdc_adoQpoasnfa76pfcZLmcfl"
     },
@@ -129,6 +125,11 @@
     }
   ],
   "modify": [
+    {
+      "path": "window.document.$cdc_asdjflasutopfhvcZLmcfl_.storeItem.new()",
+      "propertyName": "_$constructorException",
+      "property": "TypeError: Cannot set properties of undefined (setting 'cbaa54c4-cd52-4412-8019-da718534b336')"
+    },
     {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",

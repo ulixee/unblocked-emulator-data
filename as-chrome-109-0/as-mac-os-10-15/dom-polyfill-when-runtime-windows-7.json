@@ -1031,6 +1031,10 @@
   ],
   "remove": [
     {
+      "path": "window.document",
+      "propertyName": "$cdc_asdjflasutopfhvcZLmcfl_"
+    },
+    {
       "path": "window.Notification.prototype",
       "propertyName": "image"
     },
@@ -1049,10 +1053,6 @@
     {
       "path": "window.Document.prototype",
       "propertyName": "registerElement"
-    },
-    {
-      "path": "window.document",
-      "propertyName": "$cdc_asdjflasutopfhvcZLmcfl_"
     },
     {
       "path": "window",

@@ -2,6 +2,10 @@
   "add": [],
   "remove": [
     {
+      "path": "window.document",
+      "propertyName": "$cdc_asdjflasutopfhvcZLmcfl_"
+    },
+    {
       "path": "window.Text.prototype",
       "propertyName": "getDestinationInsertionPoints"
     },
@@ -16,10 +20,6 @@
     {
       "path": "window.Document.prototype",
       "propertyName": "registerElement"
-    },
-    {
-      "path": "window.document",
-      "propertyName": "$cdc_asdjflasutopfhvcZLmcfl_"
     },
     {
       "path": "window",
