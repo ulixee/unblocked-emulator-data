@@ -2377,7 +2377,8 @@
       {
         "originTypes": [
           "same-origin",
-          "cross-site"
+          "cross-site",
+          "same-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -2417,7 +2418,8 @@
           ],
           "Sec-Fetch-Site": [
             "same-origin",
-            "cross-site"
+            "cross-site",
+            "same-site"
           ],
           "Sec-Fetch-Mode": [
             "cors"
@@ -3232,6 +3234,63 @@
           "Sec-Fetch-Site": [
             "same-site",
             "same-origin"
+          ],
+          "Sec-Fetch-Mode": [
+            "cors"
+          ],
+          "Sec-Fetch-Dest": [
+            "empty"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate, br"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "cross-site"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "Content-Length",
+          "sec-ch-ua",
+          "sec-ch-ua-mobile",
+          "Content-Type",
+          "User-Agent",
+          "sec-ch-ua-platform",
+          "Accept",
+          "Origin",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Sec-Fetch-Dest",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "sec-ch-ua-platform": [
+            "\"macOS\""
+          ],
+          "Accept": [
+            "*/*"
+          ],
+          "Sec-Fetch-Site": [
+            "cross-site"
           ],
           "Sec-Fetch-Mode": [
             "cors"

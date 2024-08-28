@@ -358,6 +358,7 @@
       {
         "originTypes": [
           "same-site",
+          "cross-site",
           "same-origin"
         ],
         "method": "POST",

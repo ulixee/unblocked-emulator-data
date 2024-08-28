@@ -491,7 +491,8 @@
       },
       {
         "originTypes": [
-          "cross-site"
+          "cross-site",
+          "same-site"
         ],
         "method": "POST",
         "isRedirect": false,

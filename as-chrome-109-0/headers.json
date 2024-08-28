@@ -2083,6 +2083,7 @@
             "\"Not_A Brand\";v=\"99\", \"Google Chrome\";v=\"109\", \"Chromium\";v=\"109\""
           ],
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "sec-ch-ua-mobile": [
@@ -3322,6 +3323,7 @@
       },
       {
         "originTypes": [
+          "cross-site",
           "same-site"
         ],
         "method": "POST",
@@ -3357,9 +3359,11 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "sec-fetch-site": [
+            "cross-site",
             "same-site"
           ],
           "sec-fetch-mode": [
@@ -3696,6 +3700,7 @@
             "\"Not_A Brand\";v=\"99\", \"Google Chrome\";v=\"109\", \"Chromium\";v=\"109\""
           ],
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "sec-ch-ua-mobile": [

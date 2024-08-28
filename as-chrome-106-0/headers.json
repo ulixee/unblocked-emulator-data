@@ -3199,7 +3199,8 @@
       },
       {
         "originTypes": [
-          "same-origin"
+          "same-origin",
+          "same-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -3237,7 +3238,8 @@
             "\"macOS\""
           ],
           "sec-fetch-site": [
-            "same-origin"
+            "same-origin",
+            "same-site"
           ],
           "sec-fetch-mode": [
             "cors"
