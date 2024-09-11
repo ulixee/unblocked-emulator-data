@@ -354,6 +354,39 @@
             "en-US,en;q=0.9"
           ]
         }
+      },
+      {
+        "originTypes": [
+          "same-site"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "Content-Length",
+          "Content-Type",
+          "Accept",
+          "User-Agent",
+          "Origin",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "Accept": [
+            "application/json, text/plain, */*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
       }
     ],
     "Fetch": [
@@ -597,41 +630,6 @@
         }
       }
     ],
-    "Media": [
-      {
-        "originTypes": [
-          "same-site",
-          "same-origin",
-          "cross-site"
-        ],
-        "method": "GET",
-        "isRedirect": false,
-        "order": [
-          "Host",
-          "Connection",
-          "User-Agent",
-          "Accept-Encoding",
-          "Accept",
-          "Referer",
-          "Accept-Language",
-          "Range"
-        ],
-        "defaults": {
-          "Connection": [
-            "keep-alive"
-          ],
-          "Accept-Encoding": [
-            "identity;q=1, *;q=0"
-          ],
-          "Accept": [
-            "*/*"
-          ],
-          "Accept-Language": [
-            "en-US,en;q=0.9"
-          ]
-        }
-      }
-    ],
     "Font": [
       {
         "originTypes": [
@@ -658,6 +656,41 @@
           ],
           "Accept-Encoding": [
             "gzip, deflate"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      }
+    ],
+    "Media": [
+      {
+        "originTypes": [
+          "same-origin",
+          "same-site",
+          "cross-site"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "User-Agent",
+          "Accept-Encoding",
+          "Accept",
+          "Referer",
+          "Accept-Language",
+          "Range"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "Accept-Encoding": [
+            "identity;q=1, *;q=0"
+          ],
+          "Accept": [
+            "*/*"
           ],
           "Accept-Language": [
             "en-US,en;q=0.9"
@@ -700,7 +733,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Upgrade-Insecure-Requests": [
             "1"
@@ -763,7 +797,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Upgrade-Insecure-Requests": [
             "1"
@@ -827,7 +862,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Upgrade-Insecure-Requests": [
             "1"
@@ -906,7 +942,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Accept-Encoding": [
             "gzip, deflate, br, zstd"
@@ -952,7 +989,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Upgrade-Insecure-Requests": [
             "1"
@@ -1015,7 +1053,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Upgrade-Insecure-Requests": [
             "1"
@@ -1083,7 +1122,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Upgrade-Insecure-Requests": [
             "1"
@@ -1195,7 +1235,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Sec-Fetch-Site": [
             "same-origin"
@@ -1251,7 +1292,8 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "sec-ch-ua-mobile": [
             "?0"
@@ -1310,7 +1352,8 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Sec-Fetch-Site": [
             "same-origin"
@@ -1332,7 +1375,8 @@
       {
         "originTypes": [
           "same-origin",
-          "same-site"
+          "same-site",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -1342,9 +1386,9 @@
           "Content-Length",
           "sec-ch-ua",
           "sec-ch-ua-mobile",
+          "User-Agent",
           "Content-Type",
           "Accept",
-          "User-Agent",
           "sec-ch-ua-platform",
           "Origin",
           "Sec-Fetch-Site",
@@ -1368,11 +1412,13 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Sec-Fetch-Site": [
             "same-origin",
-            "same-site"
+            "same-site",
+            "cross-site"
           ],
           "Sec-Fetch-Mode": [
             "cors"
@@ -1425,7 +1471,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Sec-Fetch-Site": [
             "same-site",
@@ -1482,7 +1529,8 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Sec-Fetch-Site": [
             "same-site",
@@ -1504,6 +1552,8 @@
       },
       {
         "originTypes": [
+          "same-origin",
+          "same-site",
           "cross-site"
         ],
         "method": "POST",
@@ -1514,9 +1564,9 @@
           "Content-Length",
           "sec-ch-ua",
           "sec-ch-ua-mobile",
-          "User-Agent",
           "Content-Type",
           "Accept",
+          "User-Agent",
           "sec-ch-ua-platform",
           "Origin",
           "Sec-Fetch-Site",
@@ -1540,9 +1590,12 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Sec-Fetch-Site": [
+            "same-origin",
+            "same-site",
             "cross-site"
           ],
           "Sec-Fetch-Mode": [
@@ -1593,7 +1646,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Accept": [
             "*/*"
@@ -1652,7 +1706,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Accept": [
             "*/*"
@@ -1661,6 +1716,183 @@
             "same-origin",
             "same-site",
             "cross-site"
+          ],
+          "Sec-Fetch-Mode": [
+            "cors"
+          ],
+          "Sec-Fetch-Dest": [
+            "empty"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate, br, zstd"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-origin",
+          "cross-site",
+          "same-site"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "Content-Length",
+          "sec-ch-ua",
+          "sec-ch-ua-mobile",
+          "User-Agent",
+          "Content-Type",
+          "sec-ch-ua-platform",
+          "Accept",
+          "Origin",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Sec-Fetch-Dest",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "sec-ch-ua-platform": [
+            "\"macOS\"",
+            "\"Windows\""
+          ],
+          "Accept": [
+            "*/*"
+          ],
+          "Sec-Fetch-Site": [
+            "same-origin",
+            "cross-site",
+            "same-site"
+          ],
+          "Sec-Fetch-Mode": [
+            "cors"
+          ],
+          "Sec-Fetch-Dest": [
+            "empty"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate, br, zstd"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-site",
+          "cross-site"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "sec-ch-ua",
+          "sec-ch-ua-mobile",
+          "User-Agent",
+          "sec-ch-ua-platform",
+          "Accept",
+          "Origin",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Sec-Fetch-Dest",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "sec-ch-ua-platform": [
+            "\"macOS\"",
+            "\"Windows\""
+          ],
+          "Accept": [
+            "*/*"
+          ],
+          "Sec-Fetch-Site": [
+            "same-site",
+            "cross-site"
+          ],
+          "Sec-Fetch-Mode": [
+            "cors"
+          ],
+          "Sec-Fetch-Dest": [
+            "empty"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate, br, zstd"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-site"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "Content-Length",
+          "sec-ch-ua",
+          "sec-ch-ua-platform",
+          "sec-ch-ua-mobile",
+          "User-Agent",
+          "Content-Type",
+          "Accept",
+          "Origin",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Sec-Fetch-Dest",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+          ],
+          "sec-ch-ua-platform": [
+            "\"macOS\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "Accept": [
+            "*/*"
+          ],
+          "Sec-Fetch-Site": [
+            "same-site"
           ],
           "Sec-Fetch-Mode": [
             "cors"
@@ -1732,69 +1964,7 @@
       },
       {
         "originTypes": [
-          "same-origin",
-          "same-site",
-          "cross-site"
-        ],
-        "method": "POST",
-        "isRedirect": false,
-        "order": [
-          "Host",
-          "Connection",
-          "Content-Length",
-          "sec-ch-ua",
-          "sec-ch-ua-mobile",
-          "User-Agent",
-          "Content-Type",
-          "sec-ch-ua-platform",
-          "Accept",
-          "Origin",
-          "Sec-Fetch-Site",
-          "Sec-Fetch-Mode",
-          "Sec-Fetch-Dest",
-          "Referer",
-          "Accept-Encoding",
-          "Accept-Language"
-        ],
-        "defaults": {
-          "Connection": [
-            "keep-alive"
-          ],
-          "sec-ch-ua": [
-            "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
-          ],
-          "sec-ch-ua-mobile": [
-            "?0"
-          ],
-          "sec-ch-ua-platform": [
-            "\"macOS\""
-          ],
-          "Accept": [
-            "*/*"
-          ],
-          "Sec-Fetch-Site": [
-            "same-origin",
-            "same-site",
-            "cross-site"
-          ],
-          "Sec-Fetch-Mode": [
-            "cors"
-          ],
-          "Sec-Fetch-Dest": [
-            "empty"
-          ],
-          "Accept-Encoding": [
-            "gzip, deflate, br, zstd"
-          ],
-          "Accept-Language": [
-            "en-US,en;q=0.9"
-          ]
-        }
-      },
-      {
-        "originTypes": [
-          "same-site",
-          "cross-site"
+          "same-site"
         ],
         "method": "GET",
         "isRedirect": false,
@@ -1802,8 +1972,8 @@
           "Host",
           "Connection",
           "sec-ch-ua",
-          "sec-ch-ua-mobile",
           "User-Agent",
+          "sec-ch-ua-mobile",
           "sec-ch-ua-platform",
           "Accept",
           "Origin",
@@ -1831,8 +2001,7 @@
             "*/*"
           ],
           "Sec-Fetch-Site": [
-            "same-site",
-            "cross-site"
+            "same-site"
           ],
           "Sec-Fetch-Mode": [
             "cors"
@@ -1933,7 +2102,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Accept": [
             "*/*"
@@ -1993,7 +2163,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Accept": [
             "text/css,*/*;q=0.1"
@@ -2053,7 +2224,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Accept": [
             "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
@@ -2112,7 +2284,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Accept": [
             "*/*"
@@ -2138,8 +2311,8 @@
     "Media": [
       {
         "originTypes": [
-          "same-site",
           "same-origin",
+          "same-site",
           "cross-site"
         ],
         "method": "GET",
@@ -2174,14 +2347,15 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "Accept": [
             "*/*"
           ],
           "Sec-Fetch-Site": [
-            "same-site",
             "same-origin",
+            "same-site",
             "cross-site"
           ],
           "Sec-Fetch-Mode": [
@@ -2231,7 +2405,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "upgrade-insecure-requests": [
             "1"
@@ -2293,7 +2468,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "upgrade-insecure-requests": [
             "1"
@@ -2356,7 +2532,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "upgrade-insecure-requests": [
             "1"
@@ -2434,7 +2611,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept-encoding": [
             "gzip, deflate, br, zstd"
@@ -2479,7 +2657,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "upgrade-insecure-requests": [
             "1"
@@ -2541,7 +2720,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "upgrade-insecure-requests": [
             "1"
@@ -2608,7 +2788,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "upgrade-insecure-requests": [
             "1"
@@ -2674,7 +2855,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "sec-fetch-site": [
             "same-origin"
@@ -2729,7 +2911,8 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "sec-ch-ua-mobile": [
             "?0"
@@ -2787,7 +2970,8 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "sec-fetch-site": [
             "same-origin"
@@ -2809,8 +2993,8 @@
       {
         "originTypes": [
           "same-origin",
-          "same-site",
-          "cross-site"
+          "cross-site",
+          "same-site"
         ],
         "method": "POST",
         "isRedirect": false,
@@ -2845,12 +3029,13 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "sec-fetch-site": [
             "same-origin",
-            "same-site",
-            "cross-site"
+            "cross-site",
+            "same-site"
           ],
           "sec-fetch-mode": [
             "cors"
@@ -2902,7 +3087,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "sec-fetch-site": [
             "same-site",
@@ -2958,11 +3144,69 @@
             "application/json, text/plain, */*"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "sec-fetch-site": [
             "same-site",
             "cross-site"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ],
+          "accept-language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-site"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "content-length",
+          "sec-ch-ua",
+          "sec-ch-ua-mobile",
+          "content-type",
+          "accept",
+          "user-agent",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "sec-fetch-mode",
+          "sec-fetch-dest",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ],
+        "defaults": {
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "accept": [
+            "application/json, text/plain, */*"
+          ],
+          "sec-ch-ua-platform": [
+            "\"macOS\"",
+            "\"Windows\""
+          ],
+          "sec-fetch-site": [
+            "same-site"
           ],
           "sec-fetch-mode": [
             "cors"
@@ -3011,7 +3255,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept": [
             "*/*"
@@ -3069,7 +3314,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept": [
             "*/*"
@@ -3129,7 +3375,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept": [
             "*/*"
@@ -3186,7 +3433,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept": [
             "*/*"
@@ -3194,6 +3442,169 @@
           "sec-fetch-site": [
             "same-site",
             "cross-site"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ],
+          "accept-language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "cross-site"
+        ],
+        "method": "POST",
+        "isRedirect": false,
+        "order": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "content-length",
+          "sec-ch-ua",
+          "sec-ch-ua-platform",
+          "sec-ch-ua-mobile",
+          "user-agent",
+          "content-type",
+          "accept",
+          "origin",
+          "sec-fetch-site",
+          "sec-fetch-mode",
+          "sec-fetch-dest",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ],
+        "defaults": {
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+          ],
+          "sec-ch-ua-platform": [
+            "\"macOS\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "sec-fetch-site": [
+            "cross-site"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ],
+          "accept-language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-origin"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua",
+          "sec-ch-ua-platform",
+          "sec-ch-ua-mobile",
+          "user-agent",
+          "accept",
+          "sec-fetch-site",
+          "sec-fetch-mode",
+          "sec-fetch-dest",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ],
+        "defaults": {
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ],
+          "accept-language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-site"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua",
+          "user-agent",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "accept",
+          "origin",
+          "sec-fetch-site",
+          "sec-fetch-mode",
+          "sec-fetch-dest",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ],
+        "defaults": {
+          "sec-ch-ua": [
+            "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "sec-fetch-site": [
+            "same-site"
           ],
           "sec-fetch-mode": [
             "cors"
@@ -3292,7 +3703,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept": [
             "*/*"
@@ -3351,7 +3763,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept": [
             "text/css,*/*;q=0.1"
@@ -3410,7 +3823,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept": [
             "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
@@ -3468,7 +3882,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept": [
             "*/*"
@@ -3529,7 +3944,8 @@
             "?0"
           ],
           "sec-ch-ua-platform": [
-            "\"macOS\""
+            "\"macOS\"",
+            "\"Windows\""
           ],
           "accept": [
             "*/*"
