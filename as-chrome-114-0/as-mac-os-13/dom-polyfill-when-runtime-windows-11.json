@@ -129,6 +129,11 @@
   ],
   "modify": [
     {
+      "path": "window.Intl.DateTimeFormat.new().format",
+      "propertyName": "_$invocation",
+      "property": "6/18/2024"
+    },
+    {
       "path": "window.Element.prototype.requestPointerLock",
       "propertyName": "_$otherInvocationAsync.window.document.documentElement.requestPointerLock",
       "property": "NotAllowedError: A user gesture is required to request Pointer Lock."

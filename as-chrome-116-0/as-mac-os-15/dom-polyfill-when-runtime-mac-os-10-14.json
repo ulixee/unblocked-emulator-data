@@ -28,6 +28,11 @@
   ],
   "modify": [
     {
+      "path": "window.Intl.DateTimeFormat.new().format",
+      "propertyName": "_$invocation",
+      "property": "8/28/2024"
+    },
+    {
       "path": "window.Bluetooth.prototype.getAvailability",
       "propertyName": "_$otherInvocationAsync.window.navigator.bluetooth.getAvailability",
       "property": true

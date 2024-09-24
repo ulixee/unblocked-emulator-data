@@ -1353,6 +1353,28 @@
       "property": false
     },
     {
+      "path": "window.Intl.DateTimeFormat.new()",
+      "propertyName": "format",
+      "prevProperty": "_$protos",
+      "property": {
+        "length": {
+          "_$type": "number",
+          "_$flags": "c",
+          "_$value": 1
+        },
+        "name": {
+          "_$type": "string",
+          "_$flags": "c",
+          "_$value": ""
+        },
+        "_$type": "function",
+        "_$value": "function () { [native code] }",
+        "_$function": "function () { [native code] }",
+        "_$invocation": "8/28/2024",
+        "_$isAsync": false
+      }
+    },
+    {
       "path": "window.Intl.DateTimeFormat",
       "propertyName": "_$isAsync",
       "prevProperty": "_$invocation",

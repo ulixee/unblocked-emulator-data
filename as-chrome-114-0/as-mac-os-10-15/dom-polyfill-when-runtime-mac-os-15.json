@@ -28,6 +28,11 @@
   ],
   "modify": [
     {
+      "path": "window.Intl.DateTimeFormat.new().format",
+      "propertyName": "_$invocation",
+      "property": "6/17/2024"
+    },
+    {
       "path": "window.Animation.new().finished.startTime",
       "propertyName": "_$value",
       "property": 4284.615
