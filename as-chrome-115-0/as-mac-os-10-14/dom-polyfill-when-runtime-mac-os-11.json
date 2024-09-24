@@ -26,12 +26,6 @@
       "propertyName": "import"
     }
   ],
-  "modify": [
-    {
-      "path": "window.Animation.new().finished.startTime",
-      "propertyName": "_$value",
-      "property": 4210.942
-    }
-  ],
+  "modify": [],
   "reorder": []
 }

@@ -1081,12 +1081,6 @@
       "prevProperty": "BluetoothUUID"
     },
     {
-      "path": "window",
-      "propertyName": "TEMPORARY",
-      "throughProperty": "PERSISTENT",
-      "prevProperty": "cdc_adoQpoasnfa76pfcZLmcfl_JSON"
-    },
-    {
       "path": "window.navigator",
       "propertyName": "clipboard",
       "throughProperty": "userAgentData",

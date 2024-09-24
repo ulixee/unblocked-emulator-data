@@ -1097,11 +1097,6 @@
   ],
   "modify": [
     {
-      "path": "window.Intl.DateTimeFormat.new().format",
-      "propertyName": "_$invocation",
-      "property": "8/28/2024"
-    },
-    {
       "path": "window.FeaturePolicy.prototype.allowedFeatures",
       "propertyName": "_$otherInvocation.window.document.featurePolicy.allowedFeatures",
       "property": "[geolocation,storage-access,gamepad,ch-ect,midi,display-capture,usb,picture-in-picture,publickey-credentials-get,local-fonts,otp-credentials,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,ch-prefers-reduced-transparency,serial,camera,ch-prefers-reduced-motion,private-state-token-issuance,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,unload,keyboard-map,ch-ua-platform,gyroscope,ch-ua-mobile,window-management,ch-ua,publickey-credentials-create,magnetometer,accelerometer,private-state-token-redemption,ch-ua-arch,xr-spatial-tracking,ch-ua-form-factors,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
@@ -1110,11 +1105,6 @@
       "path": "window.FeaturePolicy.prototype.features",
       "propertyName": "_$otherInvocation.window.document.featurePolicy.features",
       "property": "[geolocation,storage-access,gamepad,ch-ect,midi,display-capture,usb,picture-in-picture,publickey-credentials-get,local-fonts,otp-credentials,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,ch-prefers-reduced-transparency,serial,camera,ch-prefers-reduced-motion,private-state-token-issuance,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,unload,keyboard-map,ch-ua-platform,gyroscope,ch-ua-mobile,window-management,ch-ua,publickey-credentials-create,magnetometer,accelerometer,private-state-token-redemption,ch-ua-arch,xr-spatial-tracking,ch-ua-form-factors,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
-    },
-    {
-      "path": "window.Element.prototype.requestPointerLock",
-      "propertyName": "_$otherInvocationAsync.window.document.documentElement.requestPointerLock",
-      "property": "NotAllowedError: A user gesture is required to request Pointer Lock."
     },
     {
       "path": "window.GPU.prototype.requestAdapter",
@@ -1134,12 +1124,6 @@
       "propertyName": "CSSScopeRule",
       "throughProperty": "webkitResolveLocalFileSystemURL",
       "prevProperty": "BluetoothUUID"
-    },
-    {
-      "path": "window",
-      "propertyName": "TEMPORARY",
-      "throughProperty": "PERSISTENT",
-      "prevProperty": "cdc_adoQpoasnfa76pfcZLmcfl_JSON"
     },
     {
       "path": "window.navigator",

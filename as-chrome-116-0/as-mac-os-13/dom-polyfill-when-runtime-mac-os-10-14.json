@@ -28,11 +28,6 @@
   ],
   "modify": [
     {
-      "path": "window.Animation.new().finished.startTime",
-      "propertyName": "_$value",
-      "property": 3033.1130000000003
-    },
-    {
       "path": "window.Bluetooth.prototype.getAvailability",
       "propertyName": "_$otherInvocationAsync.window.navigator.bluetooth.getAvailability",
       "property": true

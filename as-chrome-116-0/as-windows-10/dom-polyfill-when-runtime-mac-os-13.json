@@ -91,11 +91,6 @@
   ],
   "modify": [
     {
-      "path": "window.Animation.new().finished.startTime",
-      "propertyName": "_$value",
-      "property": 5453.939
-    },
-    {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": false

@@ -1060,11 +1060,6 @@
       "path": "window.FeaturePolicy.prototype.features",
       "propertyName": "_$otherInvocation.window.document.featurePolicy.features",
       "property": "[geolocation,gamepad,ch-ect,midi,display-capture,usb,local-fonts,picture-in-picture,publickey-credentials-get,otp-credentials,ch-ua-form-factor,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,serial,camera,ch-prefers-reduced-motion,private-state-token-issuance,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,keyboard-map,ch-ua-platform,gyroscope,window-placement,ch-ua-mobile,ch-ua,magnetometer,accelerometer,private-state-token-redemption,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
-    },
-    {
-      "path": "window.Element.prototype.requestPointerLock",
-      "propertyName": "_$otherInvocationAsync.window.document.documentElement.requestPointerLock",
-      "property": "NotAllowedError: A user gesture is required to request Pointer Lock."
     }
   ],
   "reorder": [
@@ -1079,12 +1074,6 @@
       "propertyName": "BrowserCaptureMediaStreamTrack",
       "throughProperty": "webkitResolveLocalFileSystemURL",
       "prevProperty": "BluetoothUUID"
-    },
-    {
-      "path": "window",
-      "propertyName": "TEMPORARY",
-      "throughProperty": "PERSISTENT",
-      "prevProperty": "cdc_adoQpoasnfa76pfcZLmcfl_JSON"
     },
     {
       "path": "window.navigator",

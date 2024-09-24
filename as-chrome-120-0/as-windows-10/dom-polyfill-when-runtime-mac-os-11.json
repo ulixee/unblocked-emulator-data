@@ -91,11 +91,6 @@
   ],
   "modify": [
     {
-      "path": "window.Animation.new().finished.startTime",
-      "propertyName": "_$value",
-      "property": 5620.099999999999
-    },
-    {
       "path": "window.GPU.prototype.requestAdapter",
       "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
       "property": null

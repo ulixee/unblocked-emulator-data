@@ -1052,11 +1052,6 @@
   ],
   "modify": [
     {
-      "path": "window.Intl.DateTimeFormat.new().format",
-      "propertyName": "_$invocation",
-      "property": "6/17/2024"
-    },
-    {
       "path": "window.FeaturePolicy.prototype.allowedFeatures",
       "propertyName": "_$otherInvocation.window.document.featurePolicy.allowedFeatures",
       "property": "[geolocation,gamepad,ch-ect,midi,display-capture,usb,local-fonts,picture-in-picture,publickey-credentials-get,otp-credentials,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,serial,camera,ch-prefers-reduced-motion,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,keyboard-map,ch-ua-platform,gyroscope,window-placement,ch-ua-mobile,ch-ua,magnetometer,accelerometer,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
@@ -1065,11 +1060,6 @@
       "path": "window.FeaturePolicy.prototype.features",
       "propertyName": "_$otherInvocation.window.document.featurePolicy.features",
       "property": "[geolocation,gamepad,ch-ect,midi,display-capture,usb,local-fonts,picture-in-picture,publickey-credentials-get,otp-credentials,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,serial,camera,ch-prefers-reduced-motion,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,keyboard-map,ch-ua-platform,gyroscope,window-placement,ch-ua-mobile,ch-ua,magnetometer,accelerometer,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
-    },
-    {
-      "path": "window.Animation.new().finished.startTime",
-      "propertyName": "_$value",
-      "property": 6754.49
     },
     {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",

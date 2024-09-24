@@ -28,16 +28,6 @@
   ],
   "modify": [
     {
-      "path": "window.Intl.DateTimeFormat.new().format",
-      "propertyName": "_$invocation",
-      "property": "6/17/2024"
-    },
-    {
-      "path": "window.Animation.new().finished.startTime",
-      "propertyName": "_$value",
-      "property": 4595.722000000001
-    },
-    {
       "path": "window.Bluetooth.prototype.getAvailability",
       "propertyName": "_$otherInvocationAsync.window.navigator.bluetooth.getAvailability",
       "property": false

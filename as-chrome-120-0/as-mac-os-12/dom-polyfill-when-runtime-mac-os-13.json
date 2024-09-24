@@ -26,17 +26,6 @@
       "propertyName": "import"
     }
   ],
-  "modify": [
-    {
-      "path": "window.Element.prototype.requestPointerLock",
-      "propertyName": "_$otherInvocationAsync.window.document.documentElement.requestPointerLock",
-      "property": "WrongDocumentError: The root document of this element is not valid for pointer lock."
-    },
-    {
-      "path": "window.Animation.new().finished.startTime",
-      "propertyName": "_$value",
-      "property": 4192.1
-    }
-  ],
+  "modify": [],
   "reorder": []
 }

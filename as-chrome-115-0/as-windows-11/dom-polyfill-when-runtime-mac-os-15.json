@@ -91,16 +91,6 @@
   ],
   "modify": [
     {
-      "path": "window.Intl.DateTimeFormat.new().format",
-      "propertyName": "_$invocation",
-      "property": "6/17/2024"
-    },
-    {
-      "path": "window.Animation.new().finished.startTime",
-      "propertyName": "_$value",
-      "property": 6623.986999999999
-    },
-    {
       "path": "window.GPU.prototype.requestAdapter",
       "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
       "property": null

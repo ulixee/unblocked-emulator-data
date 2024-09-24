@@ -129,11 +129,6 @@
   ],
   "modify": [
     {
-      "path": "window.Element.prototype.requestPointerLock",
-      "propertyName": "_$otherInvocationAsync.window.document.documentElement.requestPointerLock",
-      "property": "WrongDocumentError: The root document of this element is not valid for pointer lock."
-    },
-    {
       "path": "window.GPU.prototype.requestAdapter",
       "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
       "property": "{}"

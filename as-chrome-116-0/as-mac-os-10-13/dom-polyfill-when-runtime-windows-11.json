@@ -129,16 +129,6 @@
   ],
   "modify": [
     {
-      "path": "window.Element.prototype.requestPointerLock",
-      "propertyName": "_$otherInvocationAsync.window.document.documentElement.requestPointerLock",
-      "property": "NotAllowedError: A user gesture is required to request Pointer Lock."
-    },
-    {
-      "path": "window.Animation.new().finished.startTime",
-      "propertyName": "_$value",
-      "property": 4595.722000000001
-    },
-    {
       "path": "window.GPU.prototype.requestAdapter",
       "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
       "property": "{}"
