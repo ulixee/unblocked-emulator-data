@@ -139,11 +139,6 @@
       "property": false
     },
     {
-      "path": "window.GPU.prototype.requestAdapter",
-      "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
-      "property": "{}"
-    },
-    {
       "path": "window.Serial.prototype.getPorts",
       "propertyName": "_$otherInvocationAsync.window.navigator.serial.getPorts",
       "property": "[]"

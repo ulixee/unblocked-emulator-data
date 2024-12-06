@@ -91,11 +91,6 @@
   ],
   "modify": [
     {
-      "path": "window.GPU.prototype.requestAdapter",
-      "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
-      "property": null
-    },
-    {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": false

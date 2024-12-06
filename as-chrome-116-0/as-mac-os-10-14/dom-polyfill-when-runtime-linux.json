@@ -12,16 +12,6 @@
       }
     },
     {
-      "path": "window.navigator.languages",
-      "propertyName": "1",
-      "prevProperty": "0",
-      "property": {
-        "_$type": "string",
-        "_$flags": "e",
-        "_$value": "en"
-      }
-    },
-    {
       "path": "window",
       "propertyName": "BarcodeDetector",
       "prevProperty": "PublicKeyCredential",
@@ -1110,11 +1100,6 @@
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": true
-    },
-    {
-      "path": "window.GPU.prototype.requestAdapter",
-      "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
-      "property": "{}"
     }
   ],
   "reorder": [

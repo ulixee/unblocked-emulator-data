@@ -94,11 +94,6 @@
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",
       "propertyName": "_$invocation",
       "property": false
-    },
-    {
-      "path": "window.GPU.prototype.requestAdapter",
-      "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
-      "property": null
     }
   ],
   "reorder": [

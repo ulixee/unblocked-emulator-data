@@ -12,16 +12,6 @@
       }
     },
     {
-      "path": "window.navigator.languages",
-      "propertyName": "1",
-      "prevProperty": "0",
-      "property": {
-        "_$type": "string",
-        "_$flags": "e",
-        "_$value": "en"
-      }
-    },
-    {
       "path": "window",
       "propertyName": "BarcodeDetector",
       "prevProperty": "PublicKeyCredential",
@@ -1105,11 +1095,6 @@
       "path": "window.FeaturePolicy.prototype.features",
       "propertyName": "_$otherInvocation.window.document.featurePolicy.features",
       "property": "[geolocation,storage-access,gamepad,ch-ect,midi,display-capture,usb,picture-in-picture,publickey-credentials-get,local-fonts,otp-credentials,ch-ua-form-factor,encrypted-media,ch-save-data,ch-ua-full-version-list,ch-ua-wow64,ch-downlink,ch-prefers-color-scheme,sync-xhr,ch-ua-model,ch-prefers-reduced-transparency,serial,camera,ch-prefers-reduced-motion,private-state-token-issuance,bluetooth,identity-credentials-get,ch-ua-full-version,fullscreen,ch-dpr,unload,keyboard-map,ch-ua-platform,gyroscope,ch-ua-mobile,window-management,ch-ua,magnetometer,accelerometer,private-state-token-redemption,ch-ua-arch,xr-spatial-tracking,idle-detection,ch-ua-platform-version,ch-width,clipboard-read,ch-viewport-width,payment,ch-viewport-height,ch-rtt,autoplay,cross-origin-isolated,hid,ch-ua-bitness,screen-wake-lock,clipboard-write,ch-device-memory,microphone]"
-    },
-    {
-      "path": "window.GPU.prototype.requestAdapter",
-      "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
-      "property": "{}"
     },
     {
       "path": "window.PublicKeyCredential.isConditionalMediationAvailable",

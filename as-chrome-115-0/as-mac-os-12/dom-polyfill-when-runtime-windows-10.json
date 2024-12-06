@@ -137,11 +137,6 @@
       "path": "window.Bluetooth.prototype.getAvailability",
       "propertyName": "_$otherInvocationAsync.window.navigator.bluetooth.getAvailability",
       "property": true
-    },
-    {
-      "path": "window.GPU.prototype.requestAdapter",
-      "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
-      "property": "{}"
     }
   ],
   "reorder": [

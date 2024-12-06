@@ -89,13 +89,7 @@
       "propertyName": "import"
     }
   ],
-  "modify": [
-    {
-      "path": "window.GPU.prototype.requestAdapter",
-      "propertyName": "_$otherInvocationAsync.window.navigator.gpu.requestAdapter",
-      "property": null
-    }
-  ],
+  "modify": [],
   "reorder": [
     {
       "path": "window.Navigator.prototype",

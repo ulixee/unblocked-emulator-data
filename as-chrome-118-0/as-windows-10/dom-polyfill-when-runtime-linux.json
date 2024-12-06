@@ -59,16 +59,6 @@
       }
     },
     {
-      "path": "window.navigator.languages",
-      "propertyName": "1",
-      "prevProperty": "0",
-      "property": {
-        "_$type": "string",
-        "_$flags": "e",
-        "_$value": "en"
-      }
-    },
-    {
       "path": "window",
       "propertyName": "Bluetooth",
       "prevProperty": "PublicKeyCredential",
