@@ -357,7 +357,8 @@
       },
       {
         "originTypes": [
-          "same-site"
+          "same-site",
+          "cross-site"
         ],
         "method": "POST",
         "isRedirect": false,

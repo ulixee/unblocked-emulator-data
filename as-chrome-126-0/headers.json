@@ -3434,7 +3434,8 @@
       },
       {
         "originTypes": [
-          "same-site"
+          "same-site",
+          "cross-site"
         ],
         "method": "GET",
         "isRedirect": false,
@@ -3470,7 +3471,8 @@
             "*/*"
           ],
           "sec-fetch-site": [
-            "same-site"
+            "same-site",
+            "cross-site"
           ],
           "sec-fetch-mode": [
             "cors"

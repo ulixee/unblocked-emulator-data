@@ -520,6 +520,7 @@
       {
         "originTypes": [
           "same-site",
+          "cross-site",
           "same-origin"
         ],
         "method": "POST",
@@ -3169,6 +3170,7 @@
       },
       {
         "originTypes": [
+          "same-origin",
           "same-site"
         ],
         "method": "POST",
@@ -3195,6 +3197,7 @@
         ],
         "defaults": {
           "sec-ch-ua-platform": [
+            "\"macOS\"",
             "\"Windows\""
           ],
           "sec-ch-ua": [
@@ -3207,6 +3210,7 @@
             "application/json, text/plain, */*"
           ],
           "sec-fetch-site": [
+            "same-origin",
             "same-site"
           ],
           "sec-fetch-mode": [

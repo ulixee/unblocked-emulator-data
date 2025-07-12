@@ -1613,6 +1613,60 @@
             "en-US,en;q=0.9"
           ]
         }
+      },
+      {
+        "originTypes": [
+          "same-origin"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          "Host",
+          "Connection",
+          "sec-ch-ua-platform",
+          "sec-ch-ua",
+          "sec-ch-ua-mobile",
+          "Accept",
+          "User-Agent",
+          "Sec-Fetch-Site",
+          "Sec-Fetch-Mode",
+          "Sec-Fetch-Dest",
+          "Referer",
+          "Accept-Encoding",
+          "Accept-Language"
+        ],
+        "defaults": {
+          "Connection": [
+            "keep-alive"
+          ],
+          "sec-ch-ua-platform": [
+            "\"macOS\""
+          ],
+          "sec-ch-ua": [
+            "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "Accept": [
+            "application/json, text/plain, */*"
+          ],
+          "Sec-Fetch-Site": [
+            "same-origin"
+          ],
+          "Sec-Fetch-Mode": [
+            "cors"
+          ],
+          "Sec-Fetch-Dest": [
+            "empty"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate, br, zstd"
+          ],
+          "Accept-Language": [
+            "en-US,en;q=0.9"
+          ]
+        }
       }
     ],
     "Fetch": [
@@ -3368,6 +3422,59 @@
           ],
           "sec-fetch-site": [
             "cross-site"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ],
+          "accept-language": [
+            "en-US,en;q=0.9"
+          ]
+        }
+      },
+      {
+        "originTypes": [
+          "same-origin"
+        ],
+        "method": "GET",
+        "isRedirect": false,
+        "order": [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-platform",
+          "sec-ch-ua",
+          "sec-ch-ua-mobile",
+          "accept",
+          "user-agent",
+          "sec-fetch-site",
+          "sec-fetch-mode",
+          "sec-fetch-dest",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ],
+        "defaults": {
+          "sec-ch-ua-platform": [
+            "\"macOS\""
+          ],
+          "sec-ch-ua": [
+            "\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\""
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "accept": [
+            "application/json, text/plain, */*"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
           ],
           "sec-fetch-mode": [
             "cors"
