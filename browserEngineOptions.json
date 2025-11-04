@@ -1,17 +1,46 @@
 [
   {
+    "id": "chrome-142-0",
+    "name": "chrome",
+    "majorVersion": 142,
+    "buildVersion": 7444,
+    "stablePatchesByOs": {
+      "mac": [
+        60
+      ],
+      "win": [
+        60
+      ],
+      "linux": [
+        59
+      ]
+    }
+  },
+  {
     "id": "chrome-141-0",
     "name": "chrome",
     "majorVersion": 141,
     "buildVersion": 7390,
     "stablePatchesByOs": {
       "mac": [
+        123,
+        108,
+        77,
+        66,
         55
       ],
       "win": [
+        123,
+        108,
+        77,
+        66,
         55
       ],
       "linux": [
+        122,
+        107,
+        76,
+        65,
         54
       ]
     }
