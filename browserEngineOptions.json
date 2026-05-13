@@ -6,6 +6,7 @@
     "buildVersion": 7778,
     "stablePatchesByOs": {
       "mac": [
+        97,
         96
       ],
       "win": [
